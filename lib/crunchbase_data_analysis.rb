@@ -1,0 +1,7 @@
+require 'crunchbase_data_analysis/common'
+require 'crunchbase_data_analysis/get_cross_section_csvdata'
+
+module CrunchbaseDataAnalysis
+end
+
+CrunchbaseDataAnalysis::GetCrossSectionCsvdata.generate_data
