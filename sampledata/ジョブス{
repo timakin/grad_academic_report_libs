@@ -1,0 +1,286 @@
+ジョブス{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "2b3a6b34ad658e1e29ffd267f42530e0",
+    "type": "Person",
+    "properties": {
+      "bio": "Steve Jobs was the co-founder and CEO of Apple and formerly Pixar.\n\nSteve Jobs was born in San Francisco, California to Joanne Simpson and a Syrian father. Paul and Clara Jobs of Mountain View, California then adopted him. In 1972, Jobs graduated from Homestead High School in Cupertino, California and enrolled in Reed College in Portland, Oregon. One semester later, he dropped out, later taking up the study of philosophy and foreign cultures.\n\nSteve Jobs had a deep-seated interest in technology, so he took up a job at Atari Inc, then a leading manufacturer of video games. He struck a friendship with fellow designer Steve Wozniak and attended Homebrew Computer Club meetings with him. \n\nAfter saving up some money, Jobs took off for India in the search of enlightenment. Once he returned, he convinced Wozniak to quit his job at Hewlett Packard to join him in his venture that concerned personal computers. They sold items like scientific calculators to raise seed capital. \n\nIn 1976, Jobs and Wozniak founded Apple Computer in the Jobs family garage. The first personal computer was sold for $666.66. By 1980, Apple had already released three improved versions of the personal computer. It had a wildly successful IPO, which made both founders millionaires many times over. \n\nA tiff with the Apple&#39;s Board of Directors and John Scully led to Jobs&#39; resignation. Steve Jobs decided that he wanted to change the hardware industry. The company was called NeXTStep, which produced the NeXT Computer. The machine was a commercial washout but helped with future work in object-oriented programming, PostScript, and magneto-optical devices. Jobs returned to his original company after Apple acquired NeXT in 1996.\n\nSteve Jobs also started Pixar, which has produced multiple blockbuster films, including Toy Story (1995); A Bug&#39;s Life (1998); Toy Story 2 (1999); Monsters, Inc. (2001); Finding Nemo (2003); and The Incredibles (2004).\n\nIn 2004, Jobs was diagnosed with a malignant tumor in his pancreas, which was successfully treated. \n\nJobs resigned as CEO of Apple on August 24, 2011 and subsequently assumed the role of Chairman of the Board. \n\nOn October 5, 2011, Jobs passed away.\n",
+      "last_name": "Jobs",
+      "first_name": "Steve",
+      "permalink": "steve-jobs",
+      "homepage_url": "https://www.apple.com/stevejobs/",
+      "born_on_day": 24,
+      "born_on_month": 2,
+      "born_on_year": 1955,
+      "born_on": "1955-02-24",
+      "born_on_trust_code": 7,
+      "died_on_trust_code": 0,
+      "died_on_year": null,
+      "died_on_day": null,
+      "died_on_month": null,
+      "died_on": null,
+      "is_deceased": true,
+      "created_at": 1198341748,
+      "updated_at": 1414521825,
+      "location_uuid": "0d81d68c9c59f14f01163ad9ce7145ca"
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/steve-jobs/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": null,
+            "degree_type_name": null,
+            "degree_subject": null,
+            "type": "Degree",
+            "organization_name": "Reed College",
+            "organization_path": "organization/reed-college"
+          }
+        ]
+      },
+      "experience": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/steve-jobs/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "NeXT",
+            "organization_path": "organization/next",
+            "title": "Founder",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "Pixar",
+            "organization_path": "organization/pixar",
+            "title": "Founder",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "Apple",
+            "organization_path": "organization/apple",
+            "title": "Co-Founder",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_location": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/steve-jobs/primary_location",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Location",
+            "name": "Palo Alto",
+            "uuid": "0d81d68c9c59f14f01163ad9ce7145ca",
+            "path": "location/palo-alto/0d81d68c9c59f14f01163ad9ce7145ca",
+            "created_at": 1397982041,
+            "updated_at": 1412735425
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/steve-jobs/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Apple",
+            "title": "Co-Founder",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "founded_companies": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/steve-jobs/founded_companies",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "NeXT",
+            "path": "organization/next",
+            "created_at": 1215501070,
+            "updated_at": 1414395413
+          },
+          {
+            "type": "Organization",
+            "name": "Pixar",
+            "path": "organization/pixar",
+            "created_at": 1215501070,
+            "updated_at": 1414337421
+          },
+          {
+            "type": "Organization",
+            "name": "Apple",
+            "path": "organization/apple",
+            "created_at": 1198326533,
+            "updated_at": 1414773595
+          },
+          {
+            "type": "Organization",
+            "name": "T. Rowe Price",
+            "path": "organization/t-rowe-price",
+            "created_at": 1196705938,
+            "updated_at": 1412217960
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/steve-jobs/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397181933/55c307936d65d45ecb58e30303d9054e.jpg",
+            "created_at": 1398019140,
+            "updated_at": 1398019140
+          }
+        ]
+      },
+      "videos": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/steve-jobs/videos",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "VideoAsset",
+            "title": "Steve Jobs Lost Interview 1990 - A must watch for any entreprenuer",
+            "created_at": 1405584065,
+            "updated_at": 1405584065
+          },
+          {
+            "type": "VideoAsset",
+            "title": "[@trueMisterX] Steve Jobs the last French interview (Sept' 03)",
+            "created_at": 1402311851,
+            "updated_at": 1402311851
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/steve-jobs/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "https://www.apple.com/stevejobs/",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1412451368,
+            "updated_at": 1414521825
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 163,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/steve-jobs/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://techcrunch.com/2013/06/17/apple-nsa/",
+            "author": "Alexia Tsotsis",
+            "posted_on": "2013-06-17",
+            "type": "PressReference",
+            "title": "Why Was Apple Late To The PRISM Party?",
+            "created_at": 1371518415,
+            "updated_at": 2013
+          },
+          {
+            "url": "http://techcrunch.com/2013/06/12/mavericks-indeed/",
+            "author": "Mg Siegler",
+            "posted_on": "2013-06-12",
+            "type": "PressReference",
+            "title": "Apple's Golden State: Just Doing What's Right",
+            "created_at": 1371062412,
+            "updated_at": 2013
+          },
+          {
+            "url": "http://techcrunch.com/2013/06/12/the-steve-jobs-biopic-will-finally-land-in-a-theater-near-you-on-august-16/",
+            "author": "Jordan Crook",
+            "posted_on": "2013-06-12",
+            "type": "PressReference",
+            "title": "The Steve &#8220;jOBS&#8221; Biopic Will Finally Land In A Theater Near You On August 16",
+            "created_at": 1371048011,
+            "updated_at": 2013
+          },
+          {
+            "url": "http://techcrunch.com/?p=789906",
+            "author": "Darrell Etherington",
+            "posted_on": null,
+            "type": "PressReference",
+            "title": "Funny Or Die's Steve Jobs Movie Trailer Looks To Strike A Perfect Balance Of All Hype, No Substance",
+            "created_at": 1365011120,
+            "updated_at": 2013
+          },
+          {
+            "url": "http://techcrunch.com/2013/04/02/funny-or-dies-steve-jobs-movie-trailer-looks-to-strike-a-perfect-balance-of-all-hype-no-substance/",
+            "author": "Darrell Etherington",
+            "posted_on": "2013-04-02",
+            "type": "PressReference",
+            "title": "Funny Or Die's Steve Jobs Movie Trailer Looks To Strike A Perfect Balance Of All Hype, No Substance",
+            "created_at": 1365011034,
+            "updated_at": 2013
+          },
+          {
+            "url": "http://techcrunch.com/2013/01/28/ashton-kutcher-was-hospitalized-after-trying-steve-jobs-frutarian-diet/",
+            "author": "Jordan Crook",
+            "posted_on": "2013-01-28",
+            "type": "PressReference",
+            "title": "Ashton Kutcher Was Hospitalized After Trying Steve Jobs&#8217; Fruitarian Diet",
+            "created_at": 1359393617,
+            "updated_at": 2013
+          },
+          {
+            "url": "http://techcrunch.com/2012/12/03/jobs-ashton-kutchers-steve-jobs-biopic-to-debut-at-sundance-in-january/",
+            "author": "Rip Empson",
+            "posted_on": "2012-12-03",
+            "type": "PressReference",
+            "title": "jOBS: Ashton Kutcher&#8217;s Steve Jobs Biopic To Debut At Sundance In&nbsp;January",
+            "created_at": 1354586747,
+            "updated_at": 2012
+          },
+          {
+            "url": "http://techcrunch.com/2012/11/15/aaron-sorkins-steve-jobs-movie-to-feature-just-3-scenes-in-real-time-backstage-at-product-launches/",
+            "author": "Darrell Etherington",
+            "posted_on": "2012-11-15",
+            "type": "PressReference",
+            "title": "Aaron Sorkin&#8217;s Steve Jobs Movie To Feature Just 3 Scenes In Real-Time Backstage At Product Launches",
+            "created_at": 1353004077,
+            "updated_at": 2012
+          }
+        ]
+      }
+    }
+  }
+}

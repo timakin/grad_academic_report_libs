@@ -1,0 +1,303 @@
+起業家１
+{
+ "metadata": {
+  "version": 2,
+  "www_path_prefix": "http://www.crunchbase.com/",
+  "api_path_prefix": "http://api.crunchbase.com/v/2/",
+  "image_path_prefix": "http://images.crunchbase.com/"
+ },
+ "data": {
+  "uuid": "084aaa0707951fe89c4698bbeb02cd64",
+  "type": "Person",
+  "properties": {
+   "bio": "Dustin Moskovitz is an American internet entrepreneur who co-founded the social networking website Facebook along with Mark Zuckerberg, Eduardo Saverin, Andrew McCollum and Chris Hughes.\n\nIn 2008, he left Facebook to co-found Asana with Justin Rosenstein.\n",
+   "last_name": "Moskovitz",
+   "first_name": "Dustin",
+   "permalink": "dustin-moskovitz",
+   "born_on_day": 22,
+   "born_on_month": 5,
+   "born_on_year": 1984,
+   "born_on": "1984-05-22",
+   "born_on_trust_code": 7,
+   "died_on_trust_code": 0,
+   "died_on_day": null,
+   "died_on_month": null,
+   "died_on_year": null,
+   "died_on": null,
+   "role_investor": true,
+   "created_at": 1398010588,
+   "updated_at": 1410461140
+  },
+  "relationships": {
+   "degrees": {
+    "paging": {
+     "total_items": 2,
+     "first_page_url": "http://api.crunchbase.com/v/2/person/dustin-moskovitz/degrees",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "started_on": "2013-10-06",
+      "completed_on": "2014-02-01",
+      "degree_type_name": "Master",
+      "degree_subject": "Master",
+      "type": "Degree",
+      "organization_name": "Wesleyan University",
+      "organization_path": "organization/wesleyan-university-2"
+     },
+     {
+      "started_on": null,
+      "completed_on": null,
+      "degree_type_name": null,
+      "degree_subject": null,
+      "type": "Degree",
+      "organization_name": "Harvard University",
+      "organization_path": "organization/harvard-university"
+     }
+    ]
+   },
+   "experience": {
+    "paging": {
+     "total_items": 2,
+     "first_page_url": "http://api.crunchbase.com/v/2/person/dustin-moskovitz/experience",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "organization_name": "Asana",
+      "organization_path": "organization/asana",
+      "title": "Co-Founder",
+      "started_on": null,
+      "ended_on": null
+     },
+     {
+      "organization_name": "Facebook",
+      "organization_path": "organization/facebook",
+      "title": "Co-Founder",
+      "started_on": null,
+      "ended_on": null
+     }
+    ]
+   },
+   "primary_affiliation": {
+    "paging": {
+     "total_items": 1,
+     "first_page_url": "http://api.crunchbase.com/v/2/person/dustin-moskovitz/primary_affiliation",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "organization_name": "Asana",
+      "title": "Co-Founder",
+      "started_on": null,
+      "ended_on": null
+     }
+    ]
+   },
+   "investments": {
+    "paging": {
+     "total_items": 8,
+     "first_page_url": "http://api.crunchbase.com/v/2/person/dustin-moskovitz/investments",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "InvestorInvestment",
+      "money_invested": null,
+      "money_invested_currency_code": "USD",
+      "money_invested_usd": null,
+      "funding_round": {
+       "path": "funding-round/0338498487578a259ecfa0c3292b5b44"
+      },
+      "invested_in": {
+       "type": "Organization",
+       "name": "Venmo",
+       "path": "organization/venmo"
+      }
+     },
+     {
+      "type": "InvestorInvestment",
+      "money_invested": null,
+      "money_invested_currency_code": "USD",
+      "money_invested_usd": null,
+      "funding_round": {
+       "path": "funding-round/1b81853fb6bddf6eefdb1bee3212791e"
+      },
+      "invested_in": {
+       "type": "Organization",
+       "name": "Flipboard",
+       "path": "organization/flipboard"
+      }
+     },
+     {
+      "type": "InvestorInvestment",
+      "money_invested": null,
+      "money_invested_currency_code": "USD",
+      "money_invested_usd": null,
+      "funding_round": {
+       "path": "funding-round/a3b33e3f68d4205cbf61c2cc3b1f4e4a"
+      },
+      "invested_in": {
+       "type": "Organization",
+       "name": "Vicarious",
+       "path": "organization/vicarious-systems-inc"
+      }
+     },
+     {
+      "type": "InvestorInvestment",
+      "money_invested": null,
+      "money_invested_currency_code": "USD",
+      "money_invested_usd": null,
+      "funding_round": {
+       "path": "funding-round/c19082a27e3e20c60110f3f7067eb71f"
+      },
+      "invested_in": {
+       "type": "Organization",
+       "name": "Top Prospect",
+       "path": "organization/top-prospect"
+      }
+     },
+     {
+      "type": "InvestorInvestment",
+      "money_invested": null,
+      "money_invested_currency_code": "USD",
+      "money_invested_usd": null,
+      "funding_round": {
+       "path": "funding-round/e23bca2d03784bb9f893c1ac1e530cbc"
+      },
+      "invested_in": {
+       "type": "Organization",
+       "name": "Organizer",
+       "path": "organization/organizer"
+      }
+     },
+     {
+      "type": "InvestorInvestment",
+      "money_invested": null,
+      "money_invested_currency_code": "USD",
+      "money_invested_usd": null,
+      "funding_round": {
+       "path": "funding-round/10d341e6c674b51dc0e6490f44034ad8"
+      },
+      "invested_in": {
+       "type": "Organization",
+       "name": "Flipboard",
+       "path": "organization/flipboard"
+      }
+     },
+     {
+      "type": "InvestorInvestment",
+      "money_invested": null,
+      "money_invested_currency_code": "USD",
+      "money_invested_usd": null,
+      "funding_round": {
+       "path": "funding-round/d8f28c19efe286b4261e3ce13b320151"
+      },
+      "invested_in": {
+       "type": "Organization",
+       "name": "NationBuilder",
+       "path": "organization/nationbuilder"
+      }
+     },
+     {
+      "type": "InvestorInvestment",
+      "money_invested": null,
+      "money_invested_currency_code": "USD",
+      "money_invested_usd": null,
+      "funding_round": {
+       "path": "funding-round/88e907509de0c0430c8e1ea30fb63ce5"
+      },
+      "invested_in": {
+       "type": "Organization",
+       "name": "Path",
+       "path": "organization/path"
+      }
+     }
+    ]
+   },
+   "founded_companies": {
+    "paging": {
+     "total_items": 2,
+     "first_page_url": "http://api.crunchbase.com/v/2/person/dustin-moskovitz/founded_companies",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "Organization",
+      "name": "Asana",
+      "path": "organization/asana",
+      "created_at": 1249366642,
+      "updated_at": 1413910179
+     },
+     {
+      "type": "Organization",
+      "name": "Facebook",
+      "path": "organization/facebook",
+      "created_at": 1180153335,
+      "updated_at": 1414485389
+     }
+    ]
+   },
+   "primary_image": {
+    "paging": {
+     "total_items": 1,
+     "first_page_url": "http://api.crunchbase.com/v/2/person/dustin-moskovitz/primary_image",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "ImageAsset",
+      "title": null,
+      "path": "image/upload/v1397180232/394460aa1db8e18c4eddd5af40cd757c.jpg",
+      "created_at": 1398018990,
+      "updated_at": 1398018990
+     }
+    ]
+   },
+   "websites": {
+    "paging": {
+     "total_items": 5,
+     "first_page_url": "http://api.crunchbase.com/v/2/person/dustin-moskovitz/websites",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "url": "http://en.wikipedia.org/wiki/dustin_moskovitz",
+      "type": "WebPresence",
+      "title": "wikipedia",
+      "created_at": 1397877760,
+      "updated_at": 2014
+     },
+     {
+      "url": "http://quora.com/dustin-moskovitz",
+      "type": "WebPresence",
+      "title": "quora",
+      "created_at": 1397877760,
+      "updated_at": 2014
+     },
+     {
+      "url": "http://angel.co/moskov",
+      "type": "WebPresence",
+      "title": "angellist",
+      "created_at": 1397877760,
+      "updated_at": 2014
+     },
+     {
+      "url": "http://www.facebook.com/moskov",
+      "type": "WebPresence",
+      "title": "facebook",
+      "created_at": 1313106614,
+      "updated_at": 1409520558
+     },
+     {
+      "url": "http://twitter.com/moskov",
+      "type": "WebPresence",
+      "title": "twitter",
+      "created_at": 1180131305,
+      "updated_at": 1409409855
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,45 @@
+起業家じゃない
+{
+  "uuid": "e4c300b86f6d97af4f1e176cd67c3273",
+  "type": "Person",
+  "properties": {
+    "last_name": "Jareckie",
+    "first_name": "Ann",
+    "permalink": "ann-jareckie",
+    "created_at": 1279816367,
+    "updated_at": 1397989422
+  },
+  "relationships": {
+    "experience": {
+      "paging": {
+        "total_items": 1,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/ann-jareckie/experience",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "organization_name": "KadmusArts",
+          "organization_path": "organization/kadmusarts",
+          "title": "Administration & Research Coordinator",
+          "started_on": null,
+          "ended_on": null
+        }
+      ]
+    },
+    "primary_affiliation": {
+      "paging": {
+        "total_items": 1,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/ann-jareckie/primary_affiliation",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "organization_name": "KadmusArts",
+          "title": "Administration & Research Coordinator",
+          "started_on": null,
+          "ended_on": null
+        }
+      ]
+    }
+  }
+}

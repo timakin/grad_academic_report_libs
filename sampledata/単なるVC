@@ -1,0 +1,121 @@
+単なるVC
+{
+  "uuid": "8310e9e61965a984f6db0e9340bd7221",
+  "type": "Person",
+  "properties": {
+    "bio": "Jordan joined Accel in 2013 and focuses on investment opportunities in internet, financial technology, and software / SaaS companies. He is actively involved with Accel&#39;s investment in WorldRemit, an online and mobile remittance business for developing markets. \n\nPrior to joining Accel, Jordan worked at Goldman Sachs in the Global Leveraged Finance Group, where he covered the technology, media and telecom sectors. He advised a variety of clients on strategic balance sheet alternatives, and focused on debt IPOs, dividend recapitalizations, M&amp;A financings and LBO transactions. Jordan previously worked at a microcredit firm affiliated with the United Way where he taught classes and helped local entrepreneurs develop business plans to apply for microloans. He received a BA in Economics and minor in Mathematics from Brigham Young University. Jordan is originally from Columbus, OH.\n",
+    "last_name": "Angelos",
+    "first_name": "Jordan",
+    "permalink": "jordan-angelos",
+    "created_at": 1403245820,
+    "updated_at": 1403245886,
+    "location_uuid": "528f5e3c90d111115d1c2e4ff979d58e"
+  },
+  "relationships": {
+    "degrees": {
+      "paging": {
+        "total_items": 1,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/jordan-angelos/degrees",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "started_on": "2008-01-01",
+          "completed_on": "2011-01-01",
+          "degree_type_name": "BA",
+          "degree_subject": "Economics",
+          "type": "Degree",
+          "organization_name": "Brigham Young University (BYU)",
+          "organization_path": "organization/brigham-young-university"
+        }
+      ]
+    },
+    "experience": {
+      "paging": {
+        "total_items": 1,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/jordan-angelos/experience",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "organization_name": "Accel Partners",
+          "organization_path": "organization/accel-partners",
+          "title": "Investment Team",
+          "started_on": "2013-01-01",
+          "ended_on": null
+        }
+      ]
+    },
+    "primary_location": {
+      "paging": {
+        "total_items": 1,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/jordan-angelos/primary_location",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "type": "Location",
+          "name": "San Francisco",
+          "uuid": "528f5e3c90d111115d1c2e4ff979d58e",
+          "path": "location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e",
+          "created_at": 1397982036,
+          "updated_at": 1414193540
+        }
+      ]
+    },
+    "primary_affiliation": {
+      "paging": {
+        "total_items": 1,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/jordan-angelos/primary_affiliation",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "organization_name": "Accel Partners",
+          "title": "Investment Team",
+          "started_on": "2013-01-01",
+          "ended_on": null
+        }
+      ]
+    },
+    "primary_image": {
+      "paging": {
+        "total_items": 1,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/jordan-angelos/primary_image",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "type": "ImageAsset",
+          "title": null,
+          "path": "image/upload/v1403245793/dwsvbiixpcqqx0eo6dsz.jpg",
+          "created_at": 1403245820,
+          "updated_at": 1403245820
+        }
+      ]
+    },
+    "websites": {
+      "paging": {
+        "total_items": 2,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/jordan-angelos/websites",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "url": "http://www.linkedin.com/pub/jordan-angelos/16/4a2/54b",
+          "type": "WebPresence",
+          "title": "linkedin",
+          "created_at": 1403245842,
+          "updated_at": 1409460185
+        },
+        {
+          "url": "http://twitter.com/jangelos4",
+          "type": "WebPresence",
+          "title": "twitter",
+          "created_at": 1403245842,
+          "updated_at": 1409362008
+        }
+      ]
+    }
+  }
+}

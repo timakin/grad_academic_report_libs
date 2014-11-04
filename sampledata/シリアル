@@ -1,0 +1,209 @@
+シリアル
+{
+  "uuid": "7465a7a98721fd6e05fea43645f1ba83",
+  "type": "Person",
+  "properties": {
+    "bio": "Heather Marie is the founder and CEO of Shoppable®. Shoppable® formerly known as 72Lux, is the leader in universal checkout technology. Shoppable® allows you to shop, sell, and save products from multiple retailers within one universal checkout. Our mission is to make the entire internet Shoppable®. Any image or any site can be made Shoppable® using our suite of technology tools.\n\nPrior to founding Shoppable®, Heather was on the founding team at Affinity Labs, a digital media company that became the largest collection of online professional communities. While at Affinity Labs she played a critical role in their sales efforts and helped to lead revenue from $0 to the undisclosed big business was when she left. In January 2008, Affinity Labs was acquired by Monster Worldwide (NYSE: MWW). While assisting with the Affinity Labs and Monster.com post-acquisition integration, Heather expanded her role within Monster to focus on national lead generation sales for all divisions of Monster Worldwide.\n\nHeather has also spent several years working for women&#39;s clothing retailers such as Ralph Lauren (NYSE: RL), Express (Limited Inc.) (NYSE: LTD), and Abercrombie &amp; Fitch. She launched her first &quot;venture&quot; at age eleven, an arbitrage business on eBay. She received her undergraduate degree in Business Administration from a combination of the University of San Francisco and the London School of Economics.\n\nHeather serves on the board for the San Francisco Opera BRAVO! board as the Social Media and Communications chair. She also leads the Young Founders Organization, a group of like-minded entrepreneurs who gather in the Bay Area to socialize, network and strategize with other like-minded individuals.\n",
+    "last_name": "Marie",
+    "first_name": "Heather",
+    "permalink": "heather-marie",
+    "died_on_trust_code": 0,
+    "born_on_day": 1,
+    "born_on_month": 9,
+    "born_on_year": 1984,
+    "born_on": "1984-09-01",
+    "born_on_trust_code": 7,
+    "homepage_url": "http://www.72Lux.com",
+    "died_on_day": null,
+    "died_on_month": null,
+    "died_on_year": null,
+    "died_on": null,
+    "created_at": 1279859747,
+    "updated_at": 1411715630
+  },
+  "relationships": {
+    "degrees": {
+      "paging": {
+        "total_items": 2,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/heather-marie/degrees",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "started_on": null,
+          "completed_on": "2006-01-01",
+          "degree_type_name": "BS",
+          "degree_subject": "Management and Marketing",
+          "type": "Degree",
+          "organization_name": "USF",
+          "organization_path": "organization/university-of-san-francisco-2"
+        },
+        {
+          "started_on": null,
+          "completed_on": "2006-01-01",
+          "degree_type_name": null,
+          "degree_subject": "Marketing and Entrepreneurship",
+          "type": "Degree",
+          "organization_name": "London School of Economics",
+          "organization_path": "organization/london-school-of-economics"
+        }
+      ]
+    },
+    "experience": {
+      "paging": {
+        "total_items": 4,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/heather-marie/experience",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "organization_name": "Monster",
+          "organization_path": "organization/monster",
+          "title": "Director of Online Lead Generation Analytics & Client Success,Lead Generation and Display Advertising Sales Director",
+          "started_on": null,
+          "ended_on": null
+        },
+        {
+          "organization_name": "Young Founders Organization",
+          "organization_path": "organization/young-founders-organization",
+          "title": "Founder",
+          "started_on": "2008-09-01",
+          "ended_on": "2010-08-01"
+        },
+        {
+          "organization_name": "San Francisco Opera",
+          "organization_path": "organization/san-francisco-opera",
+          "title": "BRAVO! Board Member, Social Media & Communications Chair",
+          "started_on": "2009-11-01",
+          "ended_on": "2010-08-01"
+        },
+        {
+          "organization_name": "Shoppable",
+          "organization_path": "organization/72lux",
+          "title": "Founder & CEO",
+          "started_on": null,
+          "ended_on": null
+        }
+      ]
+    },
+    "primary_affiliation": {
+      "paging": {
+        "total_items": 1,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/heather-marie/primary_affiliation",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "organization_name": "Shoppable",
+          "title": "Founder & CEO",
+          "started_on": null,
+          "ended_on": null
+        }
+      ]
+    },
+    "founded_companies": {
+      "paging": {
+        "total_items": 2,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/heather-marie/founded_companies",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "type": "Organization",
+          "name": "Young Founders Organization",
+          "path": "organization/young-founders-organization",
+          "created_at": 1368332420,
+          "updated_at": 1397987482
+        },
+        {
+          "type": "Organization",
+          "name": "Shoppable",
+          "path": "organization/72lux",
+          "created_at": 1306201474,
+          "updated_at": 1414710044
+        }
+      ]
+    },
+    "primary_image": {
+      "paging": {
+        "total_items": 1,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/heather-marie/primary_image",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "type": "ImageAsset",
+          "title": null,
+          "path": "image/upload/v1408026171/uqxgblokyzndgwhwtwp4.jpg",
+          "created_at": 1398019130,
+          "updated_at": 1408026175
+        }
+      ]
+    },
+    "websites": {
+      "paging": {
+        "total_items": 9,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/heather-marie/websites",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "url": "http://heathermarief.tumblr.com",
+          "type": "WebPresence",
+          "title": "tumblr",
+          "created_at": 1397877760,
+          "updated_at": 2014
+        },
+        {
+          "url": "http://plus.google.com/110990049110909617994",
+          "type": "WebPresence",
+          "title": "google+",
+          "created_at": 1397877760,
+          "updated_at": 2014
+        },
+        {
+          "url": "http://www.facebook.com/hfitzpatrick",
+          "type": "WebPresence",
+          "title": "facebook",
+          "created_at": 1397877760,
+          "updated_at": 1409512767
+        },
+        {
+          "url": "http://angel.co/heather-marie",
+          "type": "WebPresence",
+          "title": "angellist",
+          "created_at": 1397877760,
+          "updated_at": 2014
+        },
+        {
+          "url": "http://www.pinterest.com/72lux",
+          "type": "WebPresence",
+          "title": "pinterest",
+          "created_at": 1397877760,
+          "updated_at": 2014
+        },
+        {
+          "url": "http://twitter.com/heathermarienyc",
+          "type": "WebPresence",
+          "title": "twitter",
+          "created_at": 1279834547,
+          "updated_at": 1409456182
+        },
+        {
+          "url": "http://www.72Lux.com/blog",
+          "type": "WebPresence",
+          "title": "blog",
+          "created_at": 1279834547,
+          "updated_at": 1397989427
+        },
+        {
+          "url": "http://www.72Lux.com",
+          "type": "WebPresence",
+          "title": "homepage",
+          "created_at": 1279834547,
+          "updated_at": 1397989427
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,448 @@
+VCかつ起業家
+{
+  "uuid": "2d78d1e7203c3eb6bf1bc51f10e0679b",
+  "type": "Person",
+  "properties": {
+    "last_name": "Breyer",
+    "first_name": "Jim",
+    "permalink": "jim-breyer",
+    "bio": "Jim is passionate about investing, social entrepreneurship and venture philanthropy, and actively supports numerous educational and environmental non-profit initiatives. In February, 2013, Jim was elected a fellow of the Harvard Corporation, Harvard University’s senior governing board.\n\nJim is the Founder/CEO of Breyer Capital, an innovative investment and venture philanthropy firm, and a Partner at Accel Partners, a leading venture capital firm. Jim has been an investor in over 30 consumer internet, media, and technology companies that have completed public offerings or successful mergers. Several of these investments have returned over 100 times their cost and many more have returned over 25 times their cost to investors. In 2013, 2012 and 2011, Forbes ranked Jim #1 in its Midas List of top technology investors. Fortune also named Jim the smartest investor in technology and one of the 10 smartest people in the technology industry. In 2012, Jim was named to the Vanity Fair New Establishment Hall of Fame and received the Silicon Valley Lifetime Visionary Award.\n\nJim led Accel’s investment in Facebook in 2005 and served on the Board of Directors from 2005 until 2013. He was also the founding Chairman of the Facebook Compensation Committee.  Jim served on the Board of Directors of Wal-Mart for more than a decade where he was the presiding independent director until his retirement from the Board in 2013. He also served on the Board of Dell Inc. from 2009 until 2013. In 2013, Jim joined the Board of 21st Century Fox where he is Chairman of the Compensation Committee and a member of the Nominating Committee. Previously, Jim was a director of Brightcove, where he invested in the Series A round in 2005, and of Model N where he was a founding investor and Board member. Jim also served on the Board of Marvel Entertainment until its acquisition by Disney.\n\nJim is currently the lead or co-lead investor in and a director of privately held companies including Etsy, Circle Financial and Legendary Entertainment.\n\nJim is co-founder and on the Strategic Investment Committee and Board of Directors of IDG-Accel China Funds and co-founder of Accel-KKR where he serves on the Board. Additionally, Breyer Capital is a limited partner in IDG China Venture Capital Fund IV, a tech venture capital fund focused on making early-stage technology, media and telecom investments in China and Jim plays a leading strategic advisory role in the fund.\n\nJim was a Founding Insight Partner of Technology Crossover Investors. Jim also initiated and led Accel’s management buyout with the operating team of BBN, a legendary security and technology services company, from Verizon. The BBN team has been honored in the Internet Hall of Fame for laying the technical foundation for the modern internet and email. Earlier in his career, Jim worked as a management consultant at McKinsey &amp; Company and in product marketing and management at Apple and Hewlett Packard.\n\nJim is former Chairman of the National Venture Capital Association and former President of the Western Association of Venture Capitalists. He serves as Chairman of the Stanford University Engineering Venture Fund, is on the Board of the Stanford Technology Ventures Program, and is personally passionate and active in the Breyer Center for Renaissance Studies at Stanford-in-Florence, Italy.\n\nJim is a long-time Trustee of the San Francisco Museum of Modern Art, on the Board of Advisors to the Chair of the Metropolitan Museum in New York and a member of the Council on Foreign Relations. He is a member of the Advisory Board of the Tsinghua School of Engineering and Management in Beijing and in 2005 was named an Honorary Professor at the 1,000 year-old Yuelu Academy at Hunan University.\n\nJim graduated with Distinction from Stanford University with a BS degree and from Harvard University with an MBA degree, where he was named a Baker Scholar. \n",
+    "role_investor": true,
+    "homepage_url": "http://www.breyercapital.com/jim-breyer",
+    "died_on_trust_code": 0,
+    "died_on_day": null,
+    "died_on_month": null,
+    "died_on_year": null,
+    "died_on": null,
+    "created_at": 1201790340,
+    "updated_at": 1412489358
+  },
+  "relationships": {
+    "degrees": {
+      "paging": {
+        "total_items": 2,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/jim-breyer/degrees",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "started_on": null,
+          "completed_on": null,
+          "degree_type_name": "MBA",
+          "degree_subject": "MBA",
+          "type": "Degree",
+          "organization_name": "Harvard Business School",
+          "organization_path": "organization/harvard-business-school"
+        },
+        {
+          "started_on": null,
+          "completed_on": null,
+          "degree_type_name": "BS",
+          "degree_subject": "BS",
+          "type": "Degree",
+          "organization_name": "Stanford University",
+          "organization_path": "organization/stanford-university"
+        }
+      ]
+    },
+    "experience": {
+      "paging": {
+        "total_items": 22,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/jim-breyer/experience",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "organization_name": "FWD.us",
+          "organization_path": "organization/fwd-us",
+          "title": "Founder",
+          "started_on": null,
+          "ended_on": null
+        },
+        {
+          "organization_name": "Actuate",
+          "organization_path": "organization/actuate",
+          "title": "Board Member",
+          "started_on": null,
+          "ended_on": null
+        },
+        {
+          "organization_name": "Booyah",
+          "organization_path": "organization/booyah",
+          "title": "Board Member",
+          "started_on": "2010-05-01",
+          "ended_on": null
+        },
+        {
+          "organization_name": "Marvel Entertainment",
+          "organization_path": "organization/marvel-entertainment",
+          "title": "Board of Directors/Investor",
+          "started_on": "2006-01-01",
+          "ended_on": "2009-01-01"
+        },
+        {
+          "organization_name": "Brightcove",
+          "organization_path": "organization/brightcove",
+          "title": "Board Member/Investor",
+          "started_on": "2005-01-01",
+          "ended_on": "2012-01-01"
+        },
+        {
+          "organization_name": "Facebook",
+          "organization_path": "organization/facebook",
+          "title": "Board of Directors/Investor",
+          "started_on": "2005-04-01",
+          "ended_on": "2013-12-31"
+        },
+        {
+          "organization_name": "Prosper",
+          "organization_path": "organization/prosper",
+          "title": "Board Member/Investor",
+          "started_on": "2005-01-01",
+          "ended_on": "2012-06-01"
+        },
+        {
+          "organization_name": "News Corp",
+          "organization_path": "organization/newscorporation",
+          "title": "Board of Directors",
+          "started_on": "2011-10-01",
+          "ended_on": null
+        }
+      ]
+    },
+    "primary_affiliation": {
+      "paging": {
+        "total_items": 1,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/jim-breyer/primary_affiliation",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "organization_name": "Breyer Capital",
+          "title": "Founder and CEO",
+          "started_on": "2006-07-01",
+          "ended_on": null
+        }
+      ]
+    },
+    "investments": {
+      "paging": {
+        "total_items": 6,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/jim-breyer/investments",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "type": "InvestorInvestment",
+          "money_invested": null,
+          "money_invested_currency_code": "USD",
+          "money_invested_usd": null,
+          "funding_round": {
+            "path": "funding-round/fc8c17f56b35b2ca928f4d2e710ebd68"
+          },
+          "invested_in": {
+            "type": "Organization",
+            "name": "Wickr",
+            "path": "organization/wickr"
+          }
+        },
+        {
+          "type": "InvestorInvestment",
+          "money_invested": null,
+          "money_invested_currency_code": "USD",
+          "money_invested_usd": null,
+          "funding_round": {
+            "path": "funding-round/05aa1fa4c79ed77524d5383de25d9038"
+          },
+          "invested_in": {
+            "type": "Organization",
+            "name": "Oscar",
+            "path": "organization/oscar"
+          }
+        },
+        {
+          "type": "InvestorInvestment",
+          "money_invested": null,
+          "money_invested_currency_code": "USD",
+          "money_invested_usd": null,
+          "funding_round": {
+            "path": "funding-round/638b81bc5cf33a869d15c1305b22864f"
+          },
+          "invested_in": {
+            "type": "Organization",
+            "name": "Circle Internet Financial",
+            "path": "organization/nfc-direct"
+          }
+        },
+        {
+          "type": "InvestorInvestment",
+          "money_invested": null,
+          "money_invested_currency_code": "USD",
+          "money_invested_usd": null,
+          "funding_round": {
+            "path": "funding-round/a95007542a733959969b2941d3bbd8fd"
+          },
+          "invested_in": {
+            "type": "Organization",
+            "name": "Clinkle",
+            "path": "organization/clinkle"
+          }
+        },
+        {
+          "type": "InvestorInvestment",
+          "money_invested": null,
+          "money_invested_currency_code": "USD",
+          "money_invested_usd": null,
+          "funding_round": {
+            "path": "funding-round/4dc18710144872f7b9f2e34220208c66"
+          },
+          "invested_in": {
+            "type": "Organization",
+            "name": "Artsy",
+            "path": "organization/art-sy"
+          }
+        },
+        {
+          "type": "InvestorInvestment",
+          "money_invested": null,
+          "money_invested_currency_code": "USD",
+          "money_invested_usd": null,
+          "funding_round": {
+            "path": "funding-round/1df0d4ade11d7810f9dca51eb218b61c"
+          },
+          "invested_in": {
+            "type": "Organization",
+            "name": "Prismatic",
+            "path": "organization/prismatic"
+          }
+        }
+      ]
+    },
+    "advisor_at": {
+      "paging": {
+        "total_items": 20,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/jim-breyer/advisor_at",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "organization_name": null,
+          "title": "Board of Directors, Chairman of the Compensation Committee and a member of the Nominating Committee"
+        },
+        {
+          "organization_name": null,
+          "title": "Advisor"
+        },
+        {
+          "organization_name": null,
+          "title": "Advisor"
+        },
+        {
+          "organization_name": null,
+          "title": "Advisor"
+        },
+        {
+          "organization_name": "Actuate",
+          "title": "Board Member"
+        },
+        {
+          "organization_name": "Booyah",
+          "title": "Board Member"
+        },
+        {
+          "organization_name": "Marvel Entertainment",
+          "title": "Board of Directors/Investor"
+        },
+        {
+          "organization_name": "Brightcove",
+          "title": "Board Member/Investor"
+        }
+      ]
+    },
+    "founded_companies": {
+      "paging": {
+        "total_items": 3,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/jim-breyer/founded_companies",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "type": "Organization",
+          "name": "FWD.us",
+          "path": "organization/fwd-us",
+          "created_at": 1365696721,
+          "updated_at": 1412491122
+        },
+        {
+          "type": "Organization",
+          "name": "Breyer Capital",
+          "path": "organization/breyer-capital",
+          "created_at": 1333709591,
+          "updated_at": 1410034030
+        },
+        {
+          "type": "Organization",
+          "name": "Accel Partners",
+          "path": "organization/accel-partners",
+          "created_at": 1180211259,
+          "updated_at": 1414761892
+        }
+      ]
+    },
+    "primary_image": {
+      "paging": {
+        "total_items": 1,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/jim-breyer/primary_image",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "type": "ImageAsset",
+          "title": null,
+          "path": "image/upload/v1403246352/gonfjikej9vpyrkhl4s4.jpg",
+          "created_at": 1398139900,
+          "updated_at": 1403246356
+        }
+      ]
+    },
+    "websites": {
+      "paging": {
+        "total_items": 7,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/jim-breyer/websites",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "url": "http://quora.com/jim-breyer",
+          "type": "WebPresence",
+          "title": "quora",
+          "created_at": 1397877760,
+          "updated_at": 2014
+        },
+        {
+          "url": "http://angel.co/jim-breyer",
+          "type": "WebPresence",
+          "title": "angellist",
+          "created_at": 1397877760,
+          "updated_at": 2014
+        },
+        {
+          "url": "http://en.wikipedia.org/wiki/jim_breyer",
+          "type": "WebPresence",
+          "title": "wikipedia",
+          "created_at": 1366091913,
+          "updated_at": 2013
+        },
+        {
+          "url": "http://www.facebook.com/jim.breyer1",
+          "type": "WebPresence",
+          "title": "facebook",
+          "created_at": 1366091785,
+          "updated_at": 1409514262
+        },
+        {
+          "url": "http://www.linkedin.com/pub/jim-breyer/20/696/b89",
+          "type": "WebPresence",
+          "title": "linkedin",
+          "created_at": 1366091785,
+          "updated_at": 1409475144
+        },
+        {
+          "url": "http://twitter.com/jimihendrixlive",
+          "type": "WebPresence",
+          "title": "twitter",
+          "created_at": 1201761540,
+          "updated_at": 1409397190
+        },
+        {
+          "url": "http://www.breyercapital.com/jim-breyer",
+          "type": "WebPresence",
+          "title": "homepage",
+          "created_at": 1201761540,
+          "updated_at": 1397989244
+        }
+      ]
+    },
+    "news": {
+      "paging": {
+        "total_items": 13,
+        "first_page_url": "http://api.crunchbase.com/v/2/person/jim-breyer/news",
+        "sort_order": "created_at DESC"
+      },
+      "items": [
+        {
+          "url": "http://techcrunch.com/2011/11/19/jim-breyer-media/",
+          "author": "Erick Schonfeld",
+          "posted_on": "2011-11-19",
+          "type": "PressReference",
+          "title": "Jim Breyer: &#8220;We See 10,000 Media Business Plans A Year, And Invest In About&nbsp;Ten&#8221;",
+          "created_at": 1321744982,
+          "updated_at": 2012
+        },
+        {
+          "url": "http://techcrunch.com/2011/09/02/accel-partners-jim-breyer-slated-to-join-news-corp-board-perkins-to-exit/",
+          "author": "Robin Wauters",
+          "posted_on": "2011-09-02",
+          "type": "PressReference",
+          "title": "Accel Partners&#8217; Jim Breyer Slated To Join News Corp Board, Perkins To&nbsp;Exit",
+          "created_at": 1314970335,
+          "updated_at": 2011
+        },
+        {
+          "url": "http://techcrunch.com/2011/04/18/walmart-ventures-into-the-social-media-space-with-acquisition-of-kosmix/",
+          "author": "Robin Wauters",
+          "posted_on": "2011-04-18",
+          "type": "PressReference",
+          "title": "Walmart Ventures Into The Social Media Space With Acquisition Of&nbsp;Kosmix",
+          "created_at": 1303147309,
+          "updated_at": 2011
+        },
+        {
+          "url": "http://techcrunch.com/2011/01/11/silicon-valley-migrates-accel-partners-opens-up-a-new-york-office/",
+          "author": "Alexia Tsotsis",
+          "posted_on": "2011-01-11",
+          "type": "PressReference",
+          "title": "Silicon Valley Migrates! Accel Partners Opens Up A New York&nbsp;Office",
+          "created_at": 1294808384,
+          "updated_at": 2011
+        },
+        {
+          "url": "http://techcrunch.com/2010/11/19/accel-facebook-chunks-of-stock/",
+          "author": "Michael Arrington",
+          "posted_on": "2010-11-19",
+          "type": "PressReference",
+          "title": "Accel Sold Big Chunk Of Facebook Stock At $35 Billion&nbsp;Valuation",
+          "created_at": 1290202650,
+          "updated_at": 2010
+        },
+        {
+          "url": "http://techcrunch.com/2010/08/26/etsy-300-million-valuation/",
+          "author": "Erick Schonfeld",
+          "posted_on": "2010-08-26",
+          "type": "PressReference",
+          "title": "Index Ventures Buys Into Etsy, Triples Valuation To Nearly $300&nbsp;Million",
+          "created_at": 1282877172,
+          "updated_at": 2010
+        },
+        {
+          "url": "http://techcrunch.com/2010/05/16/booyah-raises-20-million-from-accel-expects-6-million-users-by-the-end-of-this-summer/",
+          "author": "Evelyn Rusli",
+          "posted_on": "2010-05-16",
+          "type": "PressReference",
+          "title": "Booyah Raises $20 Million From Accel, Expects 6 Million Users By The End Of This&nbsp;Summer",
+          "created_at": 1274079552,
+          "updated_at": 2010
+        },
+        {
+          "url": "http://techcrunch.com/2010/05/10/facebook-tim-muris/",
+          "author": "Robin Wauters",
+          "posted_on": "2010-05-10",
+          "type": "PressReference",
+          "title": "Facebook Hires Former US FTC Chairman Tim&nbsp;Muris",
+          "created_at": 1273488304,
+          "updated_at": 2010
+        }
+      ]
+    }
+  }
+}

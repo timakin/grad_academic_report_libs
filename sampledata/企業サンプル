@@ -1,0 +1,663 @@
+企業サンプル
+{
+ "metadata": {
+  "version": 2,
+  "www_path_prefix": "http://www.crunchbase.com/",
+  "api_path_prefix": "http://api.crunchbase.com/v/2/",
+  "image_path_prefix": "http://images.crunchbase.com/"
+ },
+ "data": {
+  "uuid": "5f2b40b8d1b3d323d81ab7a8e89553d0",
+  "type": "Organization",
+  "properties": {
+   "role_company": true,
+   "permalink": "digg",
+   "primary_role": "company",
+   "is_closed": false,
+   "closed_on_trust_code": 0,
+   "name": "Digg",
+   "email_address": "feedback@digg.com",
+   "description": "Digg is the homepage of the Internet, featuring the best articles, videos, and original content that the web is talking about right now. \n\nThe new Digg, now a betaworks company, was re-launched in 2012. Using a combination of data signals and human editors, Digg curates and ranks the most interesting pieces of content across a broad range of topics. With over 80% direct traffic and more than 6M (and growing) monthly unique visitors, Digg has once again become a top referral source for publishers around the web.\n\nDigg was originally founded in 2004 as a way for consumers to put together their own collections of news and other Internet content, rather than relying on the choices made by newspaper editors.  After you submit content, other people read your submission and "Digg" what they like best. If your story receives enough Diggs, it is promoted to the front page for other visitors to see.\n\nOn July 12, 2012, Digg was sold in three parts: the Digg brand, website and technology were sold to the current owner, betaworks, for $500,000; 15 staff were transferred to the Washington Post's "SocialCode" for a reported $12 million; and a suite of patents were sold to LinkedIn for about $4 million.\n",
+   "short_description": "Digg is the homepage of the internet, featuring the best articles, videos, and original content that the web is talking about right now.",
+   "founded_on_day": 11,
+   "founded_on_month": 10,
+   "founded_on_year": 2004,
+   "founded_on": "2004-10-11",
+   "founded_on_trust_code": 7,
+   "homepage_url": "http://www.digg.com",
+   "created_at": 1180148603,
+   "updated_at": 1412060596,
+   "total_funding_usd": 45000000,
+   "number_of_investments": 0,
+   "number_of_employees": 60
+  },
+  "relationships": {
+   "past_team": {
+    "paging": {
+     "total_items": 49,
+     "first_page_url": "http://api.crunchbase.com/v/2/funding-round/digg/past_team",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "first_name": "Jay",
+      "last_name": "Adelson",
+      "title": "Chief Executive Officer",
+      "started_on": "2005-07-01",
+      "ended_on": "2010-04-05",
+      "path": "person/jay-adelson",
+      "created_at": 1201290676,
+      "updated_at": 1412109762
+     },
+     {
+      "first_name": "Wes",
+      "last_name": "Augur",
+      "title": "Principal R&D Engineer",
+      "started_on": "2008-07-01",
+      "ended_on": "2010-01-01",
+      "path": "person/wes-augur",
+      "created_at": 1267160769,
+      "updated_at": 1397989128
+     },
+     {
+      "first_name": "Scott",
+      "last_name": "Baker",
+      "title": "Vice President, Operations",
+      "started_on": null,
+      "ended_on": "2010-06-01",
+      "path": "person/scott-baker",
+      "created_at": 1231289036,
+      "updated_at": 1397989117
+     },
+     {
+      "first_name": "Bob",
+      "last_name": "Buch",
+      "title": "VP Business Development",
+      "started_on": null,
+      "ended_on": null,
+      "path": "person/bob-buch",
+      "created_at": 1238485625,
+      "updated_at": 1412297468
+     },
+     {
+      "first_name": "Daniel",
+      "last_name": "Burka",
+      "title": "Creative Director",
+      "started_on": "2005-01-01",
+      "ended_on": "2009-10-01",
+      "path": "person/daniel-burka",
+      "created_at": 1183039493,
+      "updated_at": 1406791768
+     },
+     {
+      "first_name": "Jen",
+      "last_name": "Burton",
+      "title": "Senior Community Manager",
+      "started_on": "2008-01-01",
+      "ended_on": "2010-01-01",
+      "path": "person/jen-burton",
+      "created_at": 1316589132,
+      "updated_at": 1397989256
+     },
+     {
+      "first_name": "Owen",
+      "last_name": "Byrne",
+      "title": "Senior Software Engineer",
+      "started_on": null,
+      "ended_on": null,
+      "path": "person/owen-byrne",
+      "created_at": 1180148805,
+      "updated_at": 1397988871
+     },
+     {
+      "first_name": "Mike",
+      "last_name": "Cieri",
+      "title": "Product Manager",
+      "started_on": null,
+      "ended_on": null,
+      "path": "person/mike-cieri",
+      "created_at": 1301903912,
+      "updated_at": 1399480371
+     }
+    ]
+   },
+   "board_members_and_advisors": {
+    "paging": {
+     "total_items": 3,
+     "first_page_url": "http://api.crunchbase.com/v/2/funding-round/digg/board_members_and_advisors",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "first_name": "Richard",
+      "last_name": "de Silva",
+      "title": "Board of Directors",
+      "started_on": "2008-09-01",
+      "path": "person/richard-de-silva",
+      "created_at": 1213241808,
+      "updated_at": 1397989256
+     },
+     {
+      "first_name": "David",
+      "last_name": "Sze",
+      "title": "Board of Directors",
+      "started_on": null,
+      "path": "person/david-sze",
+      "created_at": 1185991253,
+      "updated_at": 1409592533
+     }
+    ]
+   },
+   "current_team": {
+    "paging": {
+     "total_items": 6,
+     "first_page_url": "http://api.crunchbase.com/v/2/funding-round/digg/current_team",
+     "sort_order": "custom"
+    },
+    "items": [
+     {
+      "first_name": "Ben",
+      "last_name": "Folk-Williams",
+      "title": "VP of Engineering",
+      "started_on": null,
+      "path": "person/ben-folk-williams",
+      "created_at": 1300766193,
+      "updated_at": 1397989444
+     },
+     {
+      "first_name": "Elad",
+      "last_name": "Gilo",
+      "title": "NetSystem",
+      "started_on": "2013-04-01",
+      "path": "person/elad-gilo",
+      "created_at": 1358901463,
+      "updated_at": 1397989755
+     },
+     {
+      "first_name": "Andrew",
+      "last_name": "McLaughlin",
+      "title": "CEO",
+      "started_on": "2013-02-01",
+      "path": "person/andrew-mclaughlin",
+      "created_at": 1317781663,
+      "updated_at": 1397989371
+     },
+     {
+      "first_name": "Tyson",
+      "last_name": "Rosage",
+      "title": "Designer",
+      "started_on": "2009-10-01",
+      "path": "person/tyson-rosage",
+      "created_at": 1283299894,
+      "updated_at": 1397989100
+     },
+     {
+      "first_name": "Bennett",
+      "last_name": "Thuener",
+      "title": "CFO",
+      "started_on": "2011-07-01",
+      "path": "person/bennett-thuener",
+      "created_at": 1227940203,
+      "updated_at": 1410266651
+     },
+     {
+      "first_name": "Matt",
+      "last_name": "Williams",
+      "title": "CEO",
+      "started_on": "2010-08-31",
+      "path": "person/matt-williams-2",
+      "created_at": 1283298160,
+      "updated_at": 1409186904
+     }
+    ]
+   },
+   "acquisitions": {
+    "paging": {
+     "total_items": 1,
+     "first_page_url": "http://api.crunchbase.com/v/2/funding-round/digg/acquisitions",
+     "sort_order": "announced_on? desc"
+    },
+    "items": [
+     {
+      "announced_on": "2009-10-15",
+      "type": "Acquisition",
+      "name": "Digg acquired Wefollow",
+      "path": "acquisition/44cb0ff8b7127f0cc542c88412e078f4",
+      "created_at": 1255666896,
+      "updated_at": 1397994970
+     }
+    ]
+   },
+   "acquired_by": {
+    "paging": {
+     "total_items": 1,
+     "first_page_url": "http://api.crunchbase.com/v/2/funding-round/digg/acquired_by",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "announced_on": "2012-07-12",
+      "type": "Acquisition",
+      "name": "betaworks acquired Digg",
+      "path": "acquisition/3b5487a31ec5913fbfe1bc99ae3537ad",
+      "created_at": 1342131798,
+      "updated_at": 1397994925
+     }
+    ]
+   },
+   "competitors": {
+    "paging": {
+     "total_items": 30,
+     "first_page_url": "http://api.crunchbase.com/v/2/funding-round/digg/competitors",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "Organization",
+      "name": "Flipora",
+      "path": "organization/flipora",
+      "created_at": 1399690215,
+      "updated_at": 1412060639
+     },
+     {
+      "type": "Organization",
+      "name": "Newser",
+      "path": "organization/newser",
+      "created_at": 1239079578,
+      "updated_at": 1406361251
+     },
+     {
+      "type": "Organization",
+      "name": "GRAZEit",
+      "path": "organization/grazeit",
+      "created_at": 1239074392,
+      "updated_at": 1397988910
+     },
+     {
+      "type": "Organization",
+      "name": "Flipora",
+      "path": "organization/infoaxe",
+      "created_at": 1226868015,
+      "updated_at": 1412060629
+     },
+     {
+      "type": "Organization",
+      "name": "RatherGather",
+      "path": "organization/rathergather",
+      "created_at": 1217552331,
+      "updated_at": 1397987821
+     },
+     {
+      "type": "Organization",
+      "name": "buzznewzz",
+      "path": "organization/buzznewzz",
+      "created_at": 1216831076,
+      "updated_at": 1397987730
+     },
+     {
+      "type": "Organization",
+      "name": "EIOBA",
+      "path": "organization/eioba",
+      "created_at": 1216770426,
+      "updated_at": 1397987723
+     },
+     {
+      "type": "Organization",
+      "name": "Link Spank",
+      "path": "organization/linkspank",
+      "created_at": 1214443505,
+      "updated_at": 1397987409
+     }
+    ]
+   },
+   "offices": {
+    "paging": {
+     "total_items": 1,
+     "first_page_url": "http://api.crunchbase.com/v/2/funding-round/digg/offices",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "Address",
+      "name": "betaworks",
+      "street_1": "416 West 13th Street",
+      "street_2": null,
+      "created_at": 1402602577,
+      "updated_at": 1407370243,
+      "city": "New York",
+      "city_uuid": "d64b7615985cfbf44affaa89d70c4050",
+      "city_path": "location/new-york/d64b7615985cfbf44affaa89d70c4050",
+      "region": "New York",
+      "country_code": "USA"
+     }
+    ]
+   },
+   "headquarters": {
+    "paging": {
+     "total_items": 1,
+     "first_page_url": "http://api.crunchbase.com/v/2/funding-round/digg/headquarters",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "Address",
+      "name": "betaworks",
+      "street_1": "416 West 13th Street",
+      "street_2": null,
+      "created_at": 1402602577,
+      "updated_at": 1407370243,
+      "city": "New York",
+      "city_uuid": "d64b7615985cfbf44affaa89d70c4050",
+      "city_path": "location/new-york/d64b7615985cfbf44affaa89d70c4050",
+      "region": "New York",
+      "country_code": "USA"
+     }
+    ]
+   },
+   "funding_rounds": {
+    "paging": {
+     "total_items": 4,
+     "first_page_url": "http://api.crunchbase.com/v/2/funding-round/digg/funding_rounds",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "FundingRound",
+      "name": "Digg raises 5000000 in venture round",
+      "path": "funding-round/eba8d445f97992a81d5571d68aaf919b",
+      "created_at": 1310506821,
+      "updated_at": 1398009825
+     },
+     {
+      "type": "FundingRound",
+      "name": "Digg raises 28700000 in venture round",
+      "path": "funding-round/ab7cc513663e8b0271e3ab90e7aa980f",
+      "created_at": 1222280258,
+      "updated_at": 1398009802
+     },
+     {
+      "type": "FundingRound",
+      "name": "Digg raises 2800000 in venture round",
+      "path": "funding-round/44dc766615a29f514a7ad7015f612185",
+      "created_at": 1183524969,
+      "updated_at": 1398009814
+     },
+     {
+      "type": "FundingRound",
+      "name": "Digg raises 8500000 in venture round",
+      "path": "funding-round/fac3a91a8145d98c8dc2302afc7de82a",
+      "created_at": 1183524777,
+      "updated_at": 1398009795
+     }
+    ]
+   },
+   "categories": {
+    "paging": {
+     "total_items": 6,
+     "first_page_url": "http://api.crunchbase.com/v/2/funding-round/digg/categories",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "Category",
+      "name": "News",
+      "uuid": "db01a2011e4757b3c3cca63eb94e3878",
+      "path": "category/news/db01a2011e4757b3c3cca63eb94e3878",
+      "created_at": 1397980728,
+      "updated_at": 1412749242
+     },
+     {
+      "type": "Category",
+      "name": "Design",
+      "uuid": "47b3b55695747cf6a48e489b69aa7daa",
+      "path": "category/design/47b3b55695747cf6a48e489b69aa7daa",
+      "created_at": 1397980727,
+      "updated_at": 1412747298
+     },
+     {
+      "type": "Category",
+      "name": "Social Bookmarking",
+      "uuid": "efb26505b8986955990b3df12fa3e02b",
+      "path": "category/social bookmarking/efb26505b8986955990b3df12fa3e02b",
+      "created_at": 1397980727,
+      "updated_at": 1412150783
+     },
+     {
+      "type": "Category",
+      "name": "Web Tools",
+      "uuid": "bcf714417c0fa61bdcff629530c88d10",
+      "path": "category/web tools/bcf714417c0fa61bdcff629530c88d10",
+      "created_at": 1397980727,
+      "updated_at": 1412589344
+     },
+     {
+      "type": "Category",
+      "name": "Technology",
+      "uuid": "a596ac1954dc8da4ff04aad8d0861082",
+      "path": "category/technology/a596ac1954dc8da4ff04aad8d0861082",
+      "created_at": 1397980726,
+      "updated_at": 1412746475
+     },
+     {
+      "type": "Category",
+      "name": "Social Media",
+      "uuid": "5349a2f214d89727c32a19ebea5db78c",
+      "path": "category/social media/5349a2f214d89727c32a19ebea5db78c",
+      "created_at": 1397980726,
+      "updated_at": 1412747511
+     }
+    ]
+   },
+   "founders": {
+    "paging": {
+     "total_items": 1,
+     "first_page_url": "http://api.crunchbase.com/v/2/funding-round/digg/founders",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "Person",
+      "name": "Kevin Rose",
+      "path": "person/kevin-rose",
+      "created_at": 1188346404,
+      "updated_at": 1410932748
+     }
+    ]
+   },
+   "products": {
+    "paging": {
+     "total_items": 3,
+     "first_page_url": "http://api.crunchbase.com/v/2/funding-round/digg/products",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "Product",
+      "name": "Digg Video",
+      "path": "product/digg-video",
+      "created_at": 1402605753,
+      "updated_at": 1402605753
+     },
+     {
+      "type": "Product",
+      "name": "Digg Reader",
+      "path": "product/digg-reader",
+      "created_at": 1402605682,
+      "updated_at": 1402605683
+     },
+     {
+      "type": "Product",
+      "name": "Digg",
+      "path": "product/digg",
+      "created_at": 1181227685,
+      "updated_at": 1398758998
+     }
+    ]
+   },
+   "primary_image": {
+    "paging": {
+     "total_items": 1,
+     "first_page_url": "http://api.crunchbase.com/v/2/funding-round/digg/primary_image",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "ImageAsset",
+      "title": null,
+      "path": "image/upload/v1397180182/e77f8f561153ffb45a9ffd538978380d.jpg",
+      "created_at": 1398018467,
+      "updated_at": 1398018467
+     }
+    ]
+   },
+   "images": {
+    "paging": {
+     "total_items": 2,
+     "first_page_url": "http://api.crunchbase.com/v/2/funding-round/digg/images",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "ImageAsset",
+      "title": null,
+      "path": "image/upload/v1402602662/mricug4x2mvqzhfqcug7.png",
+      "created_at": 1402602665,
+      "updated_at": 1402602665
+     },
+     {
+      "type": "ImageAsset",
+      "title": null,
+      "path": "image/upload/v1397180183/32be209b4670ee15716435c398b049d5.png",
+      "created_at": 1398018467,
+      "updated_at": 1398018467
+     }
+    ]
+   },
+   "websites": {
+    "paging": {
+     "total_items": 5,
+     "first_page_url": "http://api.crunchbase.com/v/2/funding-round/digg/websites",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "url": "http://www.linkedin.com/company/digg",
+      "type": "WebPresence",
+      "title": "linkedin",
+      "created_at": 1405150846,
+      "updated_at": 1409463870
+     },
+     {
+      "url": "http://www.facebook.com/digg",
+      "type": "WebPresence",
+      "title": "facebook",
+      "created_at": 1405150846,
+      "updated_at": 1409509599
+     },
+     {
+      "url": "http://twitter.com/digg",
+      "type": "WebPresence",
+      "title": "twitter",
+      "created_at": 1180123403,
+      "updated_at": 1409448307
+     },
+     {
+      "url": "http://blog.digg.com/",
+      "type": "WebPresence",
+      "title": "blog",
+      "created_at": 1180123403,
+      "updated_at": 1397987384
+     },
+     {
+      "url": "http://www.digg.com",
+      "type": "WebPresence",
+      "title": "homepage",
+      "created_at": 1180123403,
+      "updated_at": 1397987384
+     }
+    ]
+   },
+   "news": {
+    "paging": {
+     "total_items": 296,
+     "first_page_url": "http://api.crunchbase.com/v/2/funding-round/digg/news",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "url": "http://www.techinasia.com/5-pieces-advice-failcon-japans-resilient-entrepreneurs/",
+      "author": null,
+      "posted_on": null,
+      "type": "PressReference",
+      "title": "5 tips to avoid or bounce back from entrepreneurial failure",
+      "created_at": 1406633110,
+      "updated_at": 1406633110
+     },
+     {
+      "url": "http://www.techinasia.com/top-3-epic-startup-fails-failcon-tokyo/",
+      "author": null,
+      "posted_on": null,
+      "type": "PressReference",
+      "title": "3 epic entrepreneurial failures to learn from",
+      "created_at": 1406562123,
+      "updated_at": 1406562123
+     },
+     {
+      "url": "http://techcrunch.com/2014/07/11/digg-relaunches-news-me-as-a-personalized-news-alerting-service-digg-deeper/",
+      "author": null,
+      "posted_on": "2014-07-11",
+      "type": "PressReference",
+      "title": "Digg Relaunches News.me As A Personalized News Alerting Service, “Digg Deeper” | TechCrunch",
+      "created_at": 1405150781,
+      "updated_at": 1405150781
+     },
+     {
+      "url": "http://venturebeat.com/2014/05/27/digg-is-back/",
+      "author": "Gregory Ferenstein",
+      "posted_on": "2014-05-27",
+      "type": "PressReference",
+      "title": "Digg is back",
+      "created_at": 1402601853,
+      "updated_at": 1402601853
+     },
+     {
+      "url": "http://techcrunch.com/2013/06/28/after-three-months-of-work-digg-reader-officially-opens-to-the-public/",
+      "author": "Chris Velazco",
+      "posted_on": "2013-06-28",
+      "type": "PressReference",
+      "title": "After Three Months Of Work, Digg Reader Officially Opens To The Public",
+      "created_at": 1372478415,
+      "updated_at": 2013
+     },
+     {
+      "url": "http://techcrunch.com/2013/06/27/digg-reader-now-available-on-diggs-ios-app/",
+      "author": "Catherine Shu",
+      "posted_on": "2013-06-27",
+      "type": "PressReference",
+      "title": "Digg Reader Now Available On Digg's iOS App",
+      "created_at": 1372318814,
+      "updated_at": 2013
+     },
+     {
+      "url": "http://techcrunch.com/2013/06/17/diggs-google-reader-replacement-to-launch-next-week-available-to-all-by-june-26/",
+      "author": "Frederic Lardinois",
+      "posted_on": "2013-06-17",
+      "type": "PressReference",
+      "title": "Digg's Google Reader Replacement To Launch Next Week, Available To All By June 26",
+      "created_at": 1371489614,
+      "updated_at": 2013
+     },
+     {
+      "url": "http://techcrunch.com/2013/03/25/digg-hints-its-google-reader-replacement-will-go-beyond-rss-alone-to-include-content-from-social-media-hn-reddit-more/",
+      "author": "Sarah Perez",
+      "posted_on": "2013-03-25",
+      "type": "PressReference",
+      "title": "Digg Hints Its Google Reader Replacement Will Go Beyond RSS Alone To Include Content From Social Media, HN, Reddit & More",
+      "created_at": 1364227222,
+      "updated_at": 2013
+     }
+    ]
+   }
+  }
+ }
+}
