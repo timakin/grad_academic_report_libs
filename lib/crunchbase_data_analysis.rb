@@ -1,8 +1,8 @@
-require File.expand_path('./crunchbase_data_analysis/common', __FILE__)
-require File.expand_path('./crunchbase_data_analysis/get_cross_section_csvdata', __FILE__)
-
+require_relative 'crunchbase_data_analysis/common'
+require_relative 'crunchbase_data_analysis/get_cross_section_csvdata'
 
 module CrunchbaseDataAnalysis
 end
 
-CrunchbaseDataAnalysis::GetCrossSectionCsvdata.generate_data
+get_cross = CrunchbaseDataAnalysis::GetCrossSectionCsvdata.new()
+get_cross.generate_data

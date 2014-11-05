@@ -5,9 +5,10 @@ require 'date'
 module CrunchbaseDataAnalysis
  class Common
   CrunchbaseAcademic::API.key = 'e623b14ba10c2f7a0a2c99b2da892569'
-  @cs_list = ['CS', 'Computer Science', 'Engineering']
-  @biz_list = ['E-Commerce', 'Economics', 'Business', 'BS', "Marketing", "Entrepreneur", "Management"]
-  @master_list = ['Master', 'MS']
+  @@cs_list = ['CS', 'Computer Science', 'Engineering']
+  @@biz_list = ['E-Commerce', 'Economics', 'Business', 'BS', "Marketing", "Entrepreneur", "Management"]
+  @@master_list = ['Master', 'MS']
+
 
   def get_person(permalink)
     CrunchbaseAcademic::Person.get(permalink)
@@ -18,15 +19,17 @@ module CrunchbaseDataAnalysis
   end
 
   def get_total_num(list)
-    list['paging']['total_items']
+    p "get_total_num"
+    total = (list ? list['paging']['total_items'] : 0)
   end
 
   def get_age(permalink)
+    p "get_age"
     person = get_person(permalink)
     if person.born_on_year.nil?
       age = 25
     elsif
-      birthyear = person.born_on.year
+      birthyear = person.born_on_year
       thisyear = Date.today.year
       age = thisyear - birthyear
     end
@@ -37,28 +40,36 @@ module CrunchbaseDataAnalysis
     (condition ? 1 : 0)
   end
 
+  def nil_addition_guard(value)
+    (value ? value : 0)
+  end
+
   def founded_org_path_list(permalink, org_list=[])
+    p "founded_org_path_list"
     person = get_person(permalink)
     items = person.founded_company['items']
     items.each do |founded|
-      org_list << (founded['name']).slice!(13..-1)
+      org_list << (founded['path']).slice!(13..-1)
     end
-    org_list
+    org_list.compact
   end
 
   def count_of_exp(permalink)
+    p "count_of_exp"
     person = get_person(permalink)
     experience_of_person = person.experience
     total_count_of_exp_org = get_total_num(experience_of_person)
   end
 
   def not_founder_flag(permalink)
+    p "not_founder_flag"
     person = get_person(permalink)
     condition = person.founded_company.nil?
     bool_to_int(condition) 
   end
 
   def serial_flag(permalink)
+    p "serial_flag"
     person = get_person(permalink)
     num_of_founded = get_total_num(person.founded_company)
     condition = !!(num_of_founded >= 2)
@@ -66,47 +77,52 @@ module CrunchbaseDataAnalysis
   end
 
   def vp_flag(permalink)
+    p "vp_flag"
     person = get_person(permalink)
-    condition != person.advisor_at.nil?
+    condition = !person.advisor_at.nil?
     bool_to_int(condition)
   end
 
   def inv_flag(permalink)
+    p "inv_flag"
     person = get_person(permalink)
-    condition != person.investments.nil?
+    condition = !person.investments.nil?
     bool_to_int(condition)
   end
 
   def biz_flag(permalink)
+    p "biz_flag"
     list = degree_sub_list(permalink)
-    @biz_list.each do |biz|
-      condition = list.includes?(biz)
+    for biz in @@biz_list
+      condition = bool_to_int(list.include?(biz))
       break if condition
     end
-    bool_to_int(condition)
+    condition
   end
 
   def cs_flag(permalink)
+    p "cs_flag"
     list = degree_sub_list(permalink)
-    @cs_list.each do |cs|
-      condition = list.includes?(cs)
+    for cs in @@cs_list
+      condition = bool_to_int(list.include?(cs))
       break if condition
     end
-    bool_to_int(condition)
+    condition
   end
 
-  def master_flag
-    list = degree_sub_list(permalink)
-    @master_list.each do |master|
-      condition = list.includes?(master)
+  def master_flag(permalink)
+    p "master_flag"
+    list = degree_type_list(permalink)
+    for master in @@master_list
+      condition = bool_to_int(list.include?(master))
       break if condition
     end
-    bool_to_int(condition)
+    condition
   end
 
   def degree_sub_list(permalink, list=[])
     person = get_person(permalink)
-    degree_param = person.degrees['items']
+    degree_param = (!person.degrees.nil? ? person.degrees['items'] : [])
     degree_param.each do |deg|
       subject ||= deg['degree_subject']
       list << subject
@@ -116,7 +132,7 @@ module CrunchbaseDataAnalysis
 
   def degree_type_list(permalink, list=[])
     person = get_person(permalink)
-    degree_param = person.degrees['items']
+    degree_param = (!person.degrees.nil? ? person.degrees['items'] : [])
     degree_param.each do |deg|
       type_name ||= deg['degree_type_name']
       list << type_name
@@ -125,22 +141,25 @@ module CrunchbaseDataAnalysis
   end
 
   def total_funding(org_list, total = 0)
+    p "total_funding"
     org_list.each do |org|
-      total += get_org(org).total_funding_usd
+      total += nil_addition_guard(get_org(org).total_funding_usd)
     end
     total
   end
 
   def count_of_product(org_list, total = 0)
+    p "count_of_product"
     org_list.each do |org|
-      total += get_total_num(get_org(org).products)
+      total += nil_addition_guard(get_total_num(get_org(org).products))
     end
     total
   end
 
   def count_of_news(org_list, total = 0)
+    p "count_of_news"
     org_list.each do |org|
-      total += get_total_num(get_org(org).news)
+      total += nil_addition_guard(get_total_num(get_org(org).news))
     end
     total
   end
