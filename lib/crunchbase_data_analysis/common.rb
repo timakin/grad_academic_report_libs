@@ -6,7 +6,7 @@ module CrunchbaseDataAnalysis
  class Common
   CrunchbaseAcademic::API.key = 'e623b14ba10c2f7a0a2c99b2da892569'
   @@cs_list = ['CS', 'Computer Science', 'Engineering']
-  @@biz_list = ['E-Commerce', 'Economics', 'Business', 'BS', "Marketing", "Entrepreneur", "Management"]
+  @@biz_list = ['E-Commerce', 'Economics', 'Business', 'BS', "Marketing", "Entrepreneur", "Management", "Finance", "Accounting"]
   @@master_list = ['Master', 'MS']
 
 
@@ -89,29 +89,29 @@ module CrunchbaseDataAnalysis
   def biz_flag(person)
     p "biz_flag"
     list = degree_sub_list(person)
-    for biz in @@biz_list
-      condition = bool_to_int(list.include?(biz))
-      break if condition
-    end
-    condition
+    degree_flag_loop(list, @@biz_list)
   end
 
   def cs_flag(person)
     p "cs_flag"
     list = degree_sub_list(person)
-    for cs in @@cs_list
-      condition = bool_to_int(list.include?(cs))
-      break if condition
-    end
-    condition
+    degree_flag_loop(list, @@cs_list)
   end
 
   def master_flag(person)
     p "master_flag"
     list = degree_type_list(person)
-    for master in @@master_list
-      condition = bool_to_int(list.include?(master))
-      break if condition
+    degree_flag_loop(list, @@master_list)
+  end
+
+  def degree_flag_loop(list, degree_class_array)
+    return 0 if list.empty?
+    for item in list
+      for deg in degree_class_array
+        condition = bool_to_int(item.include?(deg))
+        break if condition == 1
+      end
+      break if condition == 1
     end
     condition
   end
