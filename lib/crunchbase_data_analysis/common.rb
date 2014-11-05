@@ -67,11 +67,10 @@ module CrunchbaseDataAnalysis
     bool_to_int(condition) 
   end
 
-  def serial_flag(person)
+  def serial_num(person)
     p "serial_flag"
     num_of_founded = get_total_num(person.founded_company)
-    condition = !!(num_of_founded >= 2)
-    bool_to_int(condition)
+    nil_addition_guard(num_of_founded)
   end
 
   def vp_flag(person)
@@ -80,10 +79,10 @@ module CrunchbaseDataAnalysis
     bool_to_int(condition)
   end
 
-  def inv_flag(person)
+  def inv_num(person)
     p "inv_flag"
-    condition = !person.investments.nil?
-    bool_to_int(condition)
+    num_of_investments = get_total_num(person.investments)
+    nil_addition_guard(num_of_investments)
   end
 
   def biz_flag(person)
