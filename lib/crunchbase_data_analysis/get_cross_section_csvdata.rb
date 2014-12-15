@@ -14,6 +14,7 @@ module CrunchbaseDataAnalysis
           next if not_founder_flag(person) == 1
           puts "Founder flag passed"
           org_list = founded_org_path_list(person)
+          p org_list
           row << [person.permalink, total_funding(org_list), serial_num(person), vp_flag(person), count_of_exp(person), count_of_product(org_list), count_of_news(org_list), inv_num(person), cs_flag(person), biz_flag(person), master_flag(person), get_age(person)]
           sleep(5)
         end
