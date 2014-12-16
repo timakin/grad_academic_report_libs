@@ -4,7 +4,7 @@ require 'date'
 
 module CrunchbaseDataAnalysis
  class Common
-  CrunchbaseAcademic::API.key = 'e623b14ba10c2f7a0a2c99b2da892569'
+  CrunchbaseAcademic::API.key = '7a9e5001a1d3a050135fb8c25aed179e'
   @@cs_list = ['CS', 'Computer Science', 'Engineering']
   @@biz_list = ['E-Commerce', 'Economics', 'Business', 'BS', "Marketing", "Entrepreneur", "Management", "Finance", "Accounting"]
   @@master_list = ['Master', 'MS']
