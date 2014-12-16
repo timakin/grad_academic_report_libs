@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 require 'csv'
+require_relative 'panel_base.rb'
 module CrunchbaseDataAnalysis
   class GetPanelCsvdata < PanelBase
     def generate_data
-
-
       panel_path = File.expand_path('crunchbase_data_analysis/results/panel_data.csv')
       permalink_path = File.expand_path('crunchbase_data_analysis/crunchbase_data/permalink.csv')
       CSV.open(panel_path, 'a') do |row|
@@ -28,13 +27,11 @@ module CrunchbaseDataAnalysis
             serial_num = serial_num + get_total_num_in_year(founded_array, year)
             total_product_num = total_product_num + get_total_num_in_year(product_array, year)
             total_inv_num = total_inv_num + get_total_num_in_year(inv_array, year)
-            row << [person.permalink, year, get_total_price_in_year(funding_array), serial_num, vp_flag(person), count_of_exp(person), total_product_num, total_inv_num, cs_flag(person), biz_flag(person), master_flag(person)]
+            row << [person.permalink, year, get_total_price_in_year(funding_array, year), serial_num, vp_flag(person), count_of_exp(person), total_product_num, total_inv_num, cs_flag(person), biz_flag(person), master_flag(person)]
             sleep(5)
           end
         end
       end
     end
-
-
   end
 end
