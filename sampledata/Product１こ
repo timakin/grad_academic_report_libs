@@ -1,0 +1,47 @@
+Product１こ
+{
+ "metadata": {
+  "version": 2,
+  "www_path_prefix": "http://www.crunchbase.com/",
+  "api_path_prefix": "http://api.crunchbase.com/v/2/",
+  "image_path_prefix": "https://res.cloudinary.com/crunchbase-production/"
+ },
+ "data": {
+  "uuid": "347ebf2ca137ee4f4e113fd7e38fcfcc",
+  "type": "Product",
+  "properties": {
+   "lifecycle_stage": "live",
+   "short_description": "Digg Reader is a simple but powerful RSS and feed reader for web, Android, and iPhone.",
+   "permalink": "digg-reader",
+   "homepage_url": "http://digg.com/reader",
+   "name": "Digg Reader",
+   "launched_on_day": 23,
+   "launched_on_month": 6,
+   "launched_on_year": 2013,
+   "launched_on": "2013-06-23",
+   "launched_on_trust_code": 7,
+   "created_at": 1402605682,
+   "updated_at": 1402605683,
+   "owner_name": "Digg",
+   "owner_path": "organization/digg"
+  },
+  "relationships": {
+   "websites": {
+    "paging": {
+     "total_items": 1,
+     "first_page_url": "http://api.crunchbase.com/v/2/product/digg-reader/websites",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "url": "http://digg.com/reader",
+      "type": "WebPresence",
+      "title": "homepage",
+      "created_at": 1402605682,
+      "updated_at": 1402605682
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,118 @@
+{
+ "metadata": {
+  "version": 2,
+  "www_path_prefix": "http://www.crunchbase.com/",
+  "api_path_prefix": "http://api.crunchbase.com/v/2/",
+  "image_path_prefix": "https://res.cloudinary.com/crunchbase-production/"
+ },
+ "data": {
+  "uuid": "ab7cc513663e8b0271e3ab90e7aa980f",
+  "type": "FundingRound",
+  "properties": {
+   "funding_type": "venture",
+   "money_raised_usd": 28700000,
+   "announced_on_year": 2008,
+   "announced_on_day": 24,
+   "announced_on_month": 9,
+   "announced_on": "2008-09-24",
+   "announced_on_trust_code": 7,
+   "canonical_currency_code": "USD",
+   "money_raised": 28700000,
+   "money_raised_currency_code": "USD",
+   "permalink": "ab7cc513663e8b0271e3ab90e7aa980f",
+   "name": "Digg raises 28700000 in venture round",
+   "series": "c",
+   "created_at": 1222280258,
+   "updated_at": 1398009802
+  },
+  "relationships": {
+   "investments": {
+    "paging": {
+     "total_items": 4,
+     "first_page_url": "http://api.crunchbase.com/v/2/funding-round/ab7cc513663e8b0271e3ab90e7aa980f/investments",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "InvestorInvestment",
+      "money_invested": null,
+      "money_invested_currency_code": "USD",
+      "money_invested_usd": null,
+      "investor": {
+       "type": "Organization",
+       "name": "Highland Capital Partners",
+       "path": "organization/highland-capital-partners"
+      }
+     },
+     {
+      "type": "InvestorInvestment",
+      "money_invested": null,
+      "money_invested_currency_code": "USD",
+      "money_invested_usd": null,
+      "investor": {
+       "type": "Organization",
+       "name": "Greylock Partners",
+       "path": "organization/greylock"
+      }
+     },
+     {
+      "type": "InvestorInvestment",
+      "money_invested": null,
+      "money_invested_currency_code": "USD",
+      "money_invested_usd": null,
+      "investor": {
+       "type": "Organization",
+       "name": "Omidyar Network",
+       "path": "organization/omidyar-network"
+      }
+     },
+     {
+      "type": "InvestorInvestment",
+      "money_invested": null,
+      "money_invested_currency_code": "USD",
+      "money_invested_usd": null,
+      "investor": {
+       "type": "Organization",
+       "name": "Silicon Valley Bank",
+       "path": "organization/silicon-valley-bank"
+      }
+     }
+    ]
+   },
+   "funded_organization": {
+    "paging": {
+     "total_items": 1,
+     "first_page_url": "http://api.crunchbase.com/v/2/funding-round/ab7cc513663e8b0271e3ab90e7aa980f/funded_organization",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "Organization",
+      "name": "Digg",
+      "path": "organization/digg",
+      "created_at": 1180148603,
+      "updated_at": 1416864630
+     }
+    ]
+   },
+   "news": {
+    "paging": {
+     "total_items": 1,
+     "first_page_url": "http://api.crunchbase.com/v/2/funding-round/ab7cc513663e8b0271e3ab90e7aa980f/news",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "url": "http://techcrunch.com/2008/09/24/spurned-by-google-digg-taps-vcs-for-29-million-c-round/",
+      "author": null,
+      "posted_on": null,
+      "type": "PressReference",
+      "title": "Spurned By Google, Digg Taps VCs For $29 Million C Round | TechCrunch",
+      "created_at": 1222280258,
+      "updated_at": 1398009802
+     }
+    ]
+   }
+  }
+ }
+}

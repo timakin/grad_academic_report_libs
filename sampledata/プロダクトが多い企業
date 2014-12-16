@@ -1,0 +1,671 @@
+{
+ "metadata": {
+  "version": 2,
+  "www_path_prefix": "http://www.crunchbase.com/",
+  "api_path_prefix": "http://api.crunchbase.com/v/2/",
+  "image_path_prefix": "https://res.cloudinary.com/crunchbase-production/"
+ },
+ "data": {
+  "uuid": "1ecfb336a948b94a774146aa44136e3c",
+  "type": "Organization",
+  "properties": {
+   "role_company": true,
+   "secondary_role_for_profit": true,
+   "num_employees_max": null,
+   "num_employees_min": null,
+   "email_address": "info@revision3.com",
+   "description": "Revision3 is a TV network for the web, which creates and produces its own original entertainment and content.\n\nThe content is designed for an Internet-savvy audience that seeks quality content about specific, narrow and in-depth topics, but quick production time that leverages lower costs.  With the proliferation of mobile video, iPods, Tivo and other Internet-connected set-top-boxes, Revision3 believes that tailored, on-demand video will continue to increase in importance versus traditional broadcast content developed for very broad audiences.  Revision3 video content focuses on technology, comedy, music, cooking, and other niche subjects.\n\nRevision3 attempts to be agnostic about how its content gets distributed. The company works with multiple distribution platforms, including iTunes, Odeo, Bittorrent, and Palm.  Revision3 also supports multiple video encoding formats, including flash, to help make content broadly accessible.\n",
+   "short_description": "Revision3 is a multi-channel internet television network that creates, produces and distributes web television shows on niche topics.",
+   "founded_on_day": 1,
+   "founded_on_month": 4,
+   "founded_on_year": 2005,
+   "founded_on": "2005-04-01",
+   "founded_on_trust_code": 6,
+   "permalink": "revision3",
+   "primary_role": "company",
+   "is_closed": false,
+   "closed_on_trust_code": 0,
+   "homepage_url": "http://www.revision3.com",
+   "name": "Revision3",
+   "closed_on_day": null,
+   "closed_on_month": null,
+   "closed_on_year": null,
+   "closed_on": null,
+   "num_employees_range": null,
+   "role_investor": true,
+   "also_known_as": "[\"revision three\"]",
+   "created_at": 1183040376,
+   "updated_at": 1414656582,
+   "total_funding_usd": 9000000,
+   "number_of_investments": 0
+  },
+  "relationships": {
+   "past_team": {
+    "paging": {
+     "total_items": 16,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/revision3/past_team",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "first_name": "Jay",
+      "last_name": "Adelson",
+      "title": "Chairman & Co - Founder",
+      "started_on": "2005-01-01",
+      "ended_on": null,
+      "path": "person/jay-adelson",
+      "created_at": 1201290676,
+      "updated_at": 1412109762
+     },
+     {
+      "first_name": "Rob",
+      "last_name": "DeMillo",
+      "title": "CTO",
+      "started_on": "2010-02-01",
+      "ended_on": null,
+      "path": "person/rob-demillo",
+      "created_at": 1211232015,
+      "updated_at": 1400454090
+     },
+     {
+      "first_name": "Colin",
+      "last_name": "Decker",
+      "title": "VP, Audience Development",
+      "started_on": "2012-01-01",
+      "ended_on": null,
+      "path": "person/colin-decker",
+      "created_at": 1222761101,
+      "updated_at": 1398715149
+     },
+     {
+      "first_name": "Ron",
+      "last_name": "Gorodetzky",
+      "title": "Co-Founder and Director of Technology",
+      "started_on": null,
+      "ended_on": null,
+      "path": "person/ron-gorodetzky",
+      "created_at": 1180148870,
+      "updated_at": 1397988871
+     },
+     {
+      "first_name": "Graham",
+      "last_name": "Hancock",
+      "title": "Editor / Post-Production",
+      "started_on": "2009-05-18",
+      "ended_on": "2012-11-05",
+      "path": "person/graham-hancock",
+      "created_at": 1370110960,
+      "updated_at": 1397989259
+     },
+     {
+      "first_name": "Don",
+      "last_name": "Hutchison",
+      "title": "Advisors",
+      "started_on": null,
+      "ended_on": null,
+      "path": "person/don-hutchison",
+      "created_at": 1211954796,
+      "updated_at": 1410663676
+     },
+     {
+      "first_name": "Sarah",
+      "last_name": "Lane",
+      "title": "Director of Programming",
+      "started_on": null,
+      "ended_on": null,
+      "path": "person/sarah-lane",
+      "created_at": 1202831872,
+      "updated_at": 1418116203
+     },
+     {
+      "first_name": "Jim",
+      "last_name": "Louderback",
+      "title": "CEO",
+      "started_on": "2007-07-01",
+      "ended_on": "2012-07-01",
+      "path": "person/jim-louderback",
+      "created_at": 1202831872,
+      "updated_at": 1397989283
+     }
+    ]
+   },
+   "board_members_and_advisors": {
+    "paging": {
+     "total_items": 2,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/revision3/board_members_and_advisors",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "first_name": "Anthony",
+      "last_name": "Soohoo",
+      "title": "Board of Directors",
+      "started_on": "2011-04-01",
+      "path": "person/anthony-soohoo",
+      "created_at": 1192470910,
+      "updated_at": 1398010568
+     },
+     {
+      "first_name": "Roy",
+      "last_name": "Bahat",
+      "title": "Board of Directors",
+      "started_on": "2011-01-01",
+      "path": "person/roy-bahat",
+      "created_at": 1258184259,
+      "updated_at": 1406524729
+     }
+    ]
+   },
+   "current_team": {
+    "paging": {
+     "total_items": 7,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/revision3/current_team",
+     "sort_order": "custom"
+    },
+    "items": [
+     {
+      "first_name": "Alex",
+      "last_name": "Albrecht",
+      "title": "Co-Host, Diggnation, Totally Rad Show",
+      "started_on": null,
+      "path": "person/alex-albrecht",
+      "created_at": 1216181161,
+      "updated_at": 1413426966
+     },
+     {
+      "first_name": "Veronica",
+      "last_name": "Belmont",
+      "title": "Video Host Tekzilla",
+      "started_on": "2008-04-01",
+      "path": "person/veronica-belmont",
+      "created_at": 1207810087,
+      "updated_at": 1418354194
+     },
+     {
+      "first_name": "David",
+      "last_name": "Huard",
+      "title": "Producer, Co-Founder",
+      "started_on": null,
+      "path": "person/david-huard",
+      "created_at": 1183040751,
+      "updated_at": 1397988889
+     },
+     {
+      "first_name": "Michele",
+      "last_name": "Husak",
+      "title": "Senior Director, Communications",
+      "started_on": "2010-11-01",
+      "path": "person/michele-husak",
+      "created_at": 1263287610,
+      "updated_at": 1411496118
+     },
+     {
+      "first_name": "John",
+      "last_name": "Lehmann",
+      "title": "Team Member",
+      "started_on": null,
+      "path": "person/john-lehmann",
+      "created_at": 1286503166,
+      "updated_at": 1397989440
+     },
+     {
+      "first_name": "Tom",
+      "last_name": "Lofthouse",
+      "title": "VP, Programming & Production",
+      "started_on": "2011-01-01",
+      "path": "person/tom-lofthouse",
+      "created_at": 1373918267,
+      "updated_at": 1397989101
+     },
+     {
+      "first_name": "Brad",
+      "last_name": "Murphy",
+      "title": "Chief Revenue Officer",
+      "started_on": "2009-08-01",
+      "path": "person/brad-murphy-2",
+      "created_at": 1237455096,
+      "updated_at": 1397988881
+     }
+    ]
+   },
+   "acquired_by": {
+    "paging": {
+     "total_items": 1,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/revision3/acquired_by",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "announced_on": "2012-05-03",
+      "type": "Acquisition",
+      "name": "Discovery Communications acquired Revision3",
+      "path": "acquisition/d2cdcf79e4485a774aabffe3aaf84168",
+      "created_at": 1336088797,
+      "updated_at": 1397994843
+     }
+    ]
+   },
+   "competitors": {
+    "paging": {
+     "total_items": 4,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/revision3/competitors",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "Organization",
+      "name": "My Damn Channel",
+      "path": "organization/my-damn-channel",
+      "created_at": 1214467658,
+      "updated_at": 1397987420
+     },
+     {
+      "type": "Organization",
+      "name": "EQAL",
+      "path": "organization/eqal",
+      "created_at": 1208436343,
+      "updated_at": 1409880804
+     },
+     {
+      "type": "Organization",
+      "name": "WatchMojo.com",
+      "path": "organization/watchmojo-com",
+      "created_at": 1206257796,
+      "updated_at": 1397988270
+     },
+     {
+      "type": "Organization",
+      "name": "Next New Networks",
+      "path": "organization/next-new-networks",
+      "created_at": 1205366229,
+      "updated_at": 1404663666
+     }
+    ]
+   },
+   "offices": {
+    "paging": {
+     "total_items": 1,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/revision3/offices",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "Address",
+      "name": "HQ",
+      "street_1": "2415 3rd St",
+      "street_2": null,
+      "postal_code": "94107",
+      "city": "San Francisco",
+      "city_path": "location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e",
+      "region": "California",
+      "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+      "country": "United States",
+      "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+      "latitude": 37.757758,
+      "longitude": -122.388243,
+      "created_at": 1205362454,
+      "updated_at": 1397990778
+     }
+    ]
+   },
+   "headquarters": {
+    "paging": {
+     "total_items": 2,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/revision3/headquarters",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "Address",
+      "name": "HQ",
+      "street_1": "2415 3rd St",
+      "street_2": null,
+      "postal_code": "94107",
+      "city": "San Francisco",
+      "city_path": "location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e",
+      "region": "California",
+      "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+      "country": "United States",
+      "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+      "latitude": 37.757758,
+      "longitude": -122.388243,
+      "created_at": 1205362454,
+      "updated_at": 1397990778
+     },
+     {
+      "type": "Address",
+      "name": "HQ",
+      "street_1": "2415 3rd St",
+      "street_2": null,
+      "postal_code": "94107",
+      "city": "San Francisco",
+      "city_path": "location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e",
+      "region": "California",
+      "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+      "country": "United States",
+      "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+      "latitude": 37.757758,
+      "longitude": -122.388243,
+      "created_at": 1205362454,
+      "updated_at": 1397990778
+     }
+    ]
+   },
+   "funding_rounds": {
+    "paging": {
+     "total_items": 2,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/revision3/funding_rounds",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "FundingRound",
+      "name": "Revision3 raises 8000000 in venture round",
+      "path": "funding-round/47d6027e4784ec3ed751654a9020629b",
+      "created_at": 1183015994,
+      "updated_at": 1398009809
+     },
+     {
+      "type": "FundingRound",
+      "name": "Revision3 raises 1000000 in venture round",
+      "path": "funding-round/c4445d4423683a00bb1d8964a245f3e8",
+      "created_at": 1183015963,
+      "updated_at": 1409930769
+     }
+    ]
+   },
+   "categories": {
+    "paging": {
+     "total_items": 3,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/revision3/categories",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "Category",
+      "name": "Social Bookmarking",
+      "uuid": "efb26505b8986955990b3df12fa3e02b",
+      "path": "category/social bookmarking/efb26505b8986955990b3df12fa3e02b",
+      "created_at": 1397980727,
+      "updated_at": 1418340620
+     },
+     {
+      "type": "Category",
+      "name": "Video",
+      "uuid": "c6adf8227fa3c0b35188556e08d72128",
+      "path": "category/video/c6adf8227fa3c0b35188556e08d72128",
+      "created_at": 1397980726,
+      "updated_at": 1418645835
+     },
+     {
+      "type": "Category",
+      "name": "Games",
+      "uuid": "75d8432e43f9dfe0f1faeec0a04399b4",
+      "path": "category/games/75d8432e43f9dfe0f1faeec0a04399b4",
+      "created_at": 1397980726,
+      "updated_at": 1418644295
+     }
+    ]
+   },
+   "founders": {
+    "paging": {
+     "total_items": 5,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/revision3/founders",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "Person",
+      "name": "Jay Adelson",
+      "path": "person/jay-adelson",
+      "created_at": 1201290676,
+      "updated_at": 1412109762
+     },
+     {
+      "type": "Person",
+      "name": "Kevin Rose",
+      "path": "person/kevin-rose",
+      "created_at": 1188346404,
+      "updated_at": 1417720928
+     },
+     {
+      "type": "Person",
+      "name": "David Prager",
+      "path": "person/david-prager",
+      "created_at": 1183040770,
+      "updated_at": 1416290823
+     },
+     {
+      "type": "Person",
+      "name": "David Huard",
+      "path": "person/david-huard",
+      "created_at": 1183040751,
+      "updated_at": 1397988889
+     },
+     {
+      "type": "Person",
+      "name": "Ron Gorodetzky",
+      "path": "person/ron-gorodetzky",
+      "created_at": 1180148870,
+      "updated_at": 1397988871
+     }
+    ]
+   },
+   "products": {
+    "paging": {
+     "total_items": 17,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/revision3/products",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "Product",
+      "name": "XLR8R TV",
+      "path": "product/xlr8r-tv",
+      "created_at": 1211409801,
+      "updated_at": 1397995891
+     },
+     {
+      "type": "Product",
+      "name": "Web Drifter",
+      "path": "product/web-drifter",
+      "created_at": 1211409801,
+      "updated_at": 1397995891
+     },
+     {
+      "type": "Product",
+      "name": "The Totally Rad Show",
+      "path": "product/the-totally-rad-show",
+      "created_at": 1211409800,
+      "updated_at": 1397995891
+     },
+     {
+      "type": "Product",
+      "name": "Tekzilla",
+      "path": "product/tekzilla",
+      "created_at": 1211409800,
+      "updated_at": 1417948394
+     },
+     {
+      "type": "Product",
+      "name": "Systm",
+      "path": "product/systm",
+      "created_at": 1211409798,
+      "updated_at": 1397995890
+     },
+     {
+      "type": "Product",
+      "name": "Social Brew",
+      "path": "product/social-brew",
+      "created_at": 1211409798,
+      "updated_at": 1397995890
+     },
+     {
+      "type": "Product",
+      "name": "Scam School",
+      "path": "product/scam-school",
+      "created_at": 1211409798,
+      "updated_at": 1397995890
+     },
+     {
+      "type": "Product",
+      "name": "The Revision3 Gazette",
+      "path": "product/the-revision3-gazette",
+      "created_at": 1211409717,
+      "updated_at": 1397995889
+     }
+    ]
+   },
+   "primary_image": {
+    "paging": {
+     "total_items": 1,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/revision3/primary_image",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "ImageAsset",
+      "title": null,
+      "path": "image/upload/v1397180338/e1871bacd6a205449a7a415707703cfc.gif",
+      "created_at": 1398018477,
+      "updated_at": 1398018477
+     }
+    ]
+   },
+   "images": {
+    "paging": {
+     "total_items": 2,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/revision3/images",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "ImageAsset",
+      "title": null,
+      "path": "image/upload/v1414656577/swtddjmwyzgpprw3xpzd.jpg",
+      "created_at": 1414656582,
+      "updated_at": 1414656582
+     },
+     {
+      "type": "ImageAsset",
+      "title": null,
+      "path": "image/upload/v1397180340/ef6dae982d84fb755e8ebbe1b0d6ed2c.jpg",
+      "created_at": 1398018477,
+      "updated_at": 1398018477
+     }
+    ]
+   },
+   "websites": {
+    "paging": {
+     "total_items": 3,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/revision3/websites",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "url": "http://twitter.com/Revision3",
+      "type": "WebPresence",
+      "title": "twitter",
+      "created_at": 1183015176,
+      "updated_at": 1409448341
+     },
+     {
+      "url": "http://revision3.com/blog/",
+      "type": "WebPresence",
+      "title": "blog",
+      "created_at": 1183015176,
+      "updated_at": 1397987409
+     },
+     {
+      "url": "http://www.revision3.com",
+      "type": "WebPresence",
+      "title": "homepage",
+      "created_at": 1183015176,
+      "updated_at": 1397987409
+     }
+    ]
+   },
+   "news": {
+    "paging": {
+     "total_items": 27,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/revision3/news",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "url": "http://bioterra.acemaxsindonesia.net/",
+      "author": "Agen Distributor Bioterra Semarang",
+      "posted_on": "2014-01-01",
+      "type": "PressReference",
+      "title": "Agen Distributor Bioterra Semarang",
+      "created_at": 1414656472,
+      "updated_at": 1414656472
+     },
+     {
+      "url": "http://bioterra.acemaxsindonesia.net/",
+      "author": "Agen Distributor Bioterra Semarang",
+      "posted_on": "2014-01-01",
+      "type": "PressReference",
+      "title": "Agen Distributor Bioterra Semarang",
+      "created_at": 1414656472,
+      "updated_at": 1414656472
+     },
+     {
+      "url": "http://techcrunch.com/2012/11/27/lets-visit-a-nobel-prize-winning-lab-that-does-lots-of-science-shall-we/",
+      "author": "Drew Olanoff",
+      "posted_on": "2012-11-27",
+      "type": "PressReference",
+      "title": "Let’s Visit A Nobel Prize Winning Lab That Does “Lots Of Science”, Shall We?",
+      "created_at": 1354036236,
+      "updated_at": 2012
+     },
+     {
+      "url": "http://techcrunch.com/2012/06/14/kevin-rose-google-ventures-pitching-startups-tctv/",
+      "author": "Colleen Taylor",
+      "posted_on": "2012-06-14",
+      "type": "PressReference",
+      "title": "Kevin Rose On His New Gig At Google Ventures, What He Looks For In A Startup Founder, And More [TCTV]",
+      "created_at": 1339702254,
+      "updated_at": 2012
+     },
+     {
+      "url": "http://techcrunch.com/2011/05/31/youtube-networks/",
+      "author": "Erick Schonfeld",
+      "posted_on": "2011-05-31",
+      "type": "PressReference",
+      "title": "(Exclusive) YouTube’s New Strategy: Create a Network Of Networks",
+      "created_at": 1306875315,
+      "updated_at": 2011
+     },
+     {
+      "url": "http://techcrunch.com/2011/01/14/capital-efficient-online-video-startup-rocketboo/",
+      "author": "Erick Schonfeld",
+      "posted_on": "2011-01-14",
+      "type": "PressReference",
+      "title": "Which Is The Most Capital Efficient Online Video Startup Of Them All? (Hint: Rocketboom)",
+      "created_at": 1295021894,
+      "updated_at": 2011
+     },
+     {
+      "url": "http://techcrunch.com/2010/11/22/internet-tv-network-revision3-wants-you-to-lean-back-and-watch-on-your-tv/",
+      "author": "Robin Wauters",
+      "posted_on": "2010-11-22",
+      "type": "PressReference",
+      "title": "Internet TV Network Revision3 Wants You To Lean Back And Watch … On Your TV",
+      "created_at": 1290435711,
+      "updated_at": 2010
+     },
+     {
+      "url": "http://techcrunch.com/2010/11/22/internet-tv-network-revision3-wants-you-to-lean-back-and-watch-from-your-tv/",
+      "author": "Robin Wauters",
+      "posted_on": "2010-11-22",
+      "type": "PressReference",
+      "title": "Internet TV Network Revision3 Wants You To Lean Back And Watch ... From Your TV",
+      "created_at": 1290435707,
+      "updated_at": 2010
+     }
+    ]
+   }
+  }
+ }
+}
