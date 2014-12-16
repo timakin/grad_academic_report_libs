@@ -78,7 +78,7 @@ module CrunchbaseDataAnalysis
     fund_array = []
     for org in org_list
       if org.funding_rounds.nil?
-        return []
+        fund_array << {price: 0, year: 2007}
       else
         for item in org.funding_rounds['items']
           permalink = extract_path(item)
@@ -95,9 +95,9 @@ module CrunchbaseDataAnalysis
     product_array = []
     for org in org_list
       if org.products.nil?
-        return []
+        product_array << {year: 2007}
       else
-        for item in org.products
+        for item in org.products['items']
           permalink = extract_path(item)
           product = get_product(permalink)
           product_array << {year: nil_guard_for_year(product.launched_on_year)}

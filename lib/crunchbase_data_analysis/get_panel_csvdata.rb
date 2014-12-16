@@ -7,7 +7,7 @@ module CrunchbaseDataAnalysis
       panel_path = File.expand_path('crunchbase_data_analysis/results/panel_data.csv')
       permalink_path = File.expand_path('crunchbase_data_analysis/crunchbase_data/permalink.csv')
       CSV.open(panel_path, 'a') do |row|
-        row << ['permalink', 'year', 'fr_sum', 'serial_num', 'vp_exp_dummy', 'num_comp_exp', 'product_num', 'inv_num', 'cs_dummy', 'biz_dummy', 'master_dummy']
+        #row << ['permalink', 'year', 'fr_sum', 'serial_num', 'vp_exp_dummy', 'num_comp_exp', 'product_num', 'inv_num', 'cs_dummy', 'biz_dummy', 'master_dummy']
         CSV.foreach(permalink_path) do |rawlink|
           p "======================"
           person = get_person(rawlink[0])
@@ -15,9 +15,12 @@ module CrunchbaseDataAnalysis
           next if not_founder_flag(person) == 1
           puts "Founder flag passed"
           org_list = founded_org_path_list(person)
+          p org_list
           funding_array = get_funding_round_array(org_list)
           founded_array = get_founded_param_array(org_list)
           product_array = get_product_array(org_list)
+          p "~~~~~~~~~~~~~~~~~"
+          p product_array
           inv_array = get_investment_array(person)
           serial_num = 0
           total_product_num = 0
